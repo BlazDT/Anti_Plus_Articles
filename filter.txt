@@ -40,3 +40,13 @@ ksta.de##section[data-tracking-module-id="38042740"]
 ! kurier.de
 kurier.de#?#.item:has(> .content > .data[data-paidcontent="true"])
 !
+! sueddeutsche.de
+sueddeutsche.de##.sz-panorama-banderole
+sueddeutsche.de##.interactiveeditorial
+sueddeutsche.de##div[data-hydration-component-name="FinalAssetEditorialTeaserToken"]
+sueddeutsche.de#?#a:has( div[class*="__overline"] > div[class*="__overline-label"] > svg > title:contains(SZ Plus))
+sueddeutsche.de#?#a:has(> .teaser-item__description > .teaser-item__overline > svg > title:contains(SZ Plus))
+sueddeutsche.de#?#a:has(> div > h3 > div > span > svg > title:contains(SZ Plus))
+sueddeutsche.de#?#div[data-teaserlist-element]:has(> a[style="display: none !important;"])
+sueddeutsche.de#?#div[itemprop="articleBody"] > div[class]:has(> figure > a[style="display: none !important;"])
+!
