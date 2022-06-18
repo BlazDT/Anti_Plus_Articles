@@ -4,3 +4,15 @@ heise.de#?#article[data-upscore-object-id]:has( a > div > footer > svg > title:c
 heise.de#?#.ho-modules-container > div[data-component="TeasersModule"]:has(> a-sticky > header > img[alt="heise+"])
 heise.de#?#a-collapse-group > .flex-1:has(> div[class] > a-collapse > header > span:contains(beliebt bei Abonnenten))
 !
+! bild.de
+! Not all articles hidable on m.bild.de
+bild.de##a[href="https://offers.bild.de/info.html"]
+bild.de#?#li:has(> a[href="https://offers.bild.de/info.html"])
+bild.de##a[href*="/bild-plus"]
+bild.de#?#.block--colored:has(> .block__layout-wrapper > .layout > article > a[href*="/bild-plus"])
+bild.de##section[data-block-id="top-bildplus-artikel"]
+bild.de#$?#article:has(> a[href*="/bild-plus"]) { remove: true; }
+bild.de##a[href^="https://don.bild.de/www/off/"]
+bild.de#?#div[documenttype="specialNavigation"]:has(> .slider > div[class] > div[class] > a[href*="/bildplus"])
+m.bild.de#$?#article:has(> a > figure > .red-teaser-image > span > svg > path[clip-rule="evenodd"] ) { remove: true; }
+!
