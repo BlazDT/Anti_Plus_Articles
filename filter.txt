@@ -32,3 +32,8 @@ mopo.de#?#.skin-slider__slide:has(> .slider-preview > .slider-preview__img-wrap 
 mopo.de#?#.elementor-element:has(> .elementor-widget-container > .skin-slider > .skin-slider__category > a[href="https://www.mopo.de/plus-slider/"])
 mopo.de###wpfront-notification-bar-spacer
 mopo.de##a[href="/plus/"]
+!
+! ksta.de
+ksta.de#?#article:has(> a.paidLogo_facelift)
+ksta.de##section[data-tracking-module-id="38042740"]
+!
