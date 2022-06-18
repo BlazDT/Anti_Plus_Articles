@@ -23,3 +23,12 @@ faz.net#?#.o-Grid_Col:has(> article[style="display: none !important;"])
 faz.net##div[data-tb-region="Das Beste von F+"]
 faz.net##.mm-adbox
 !
+! nordbayern.de
+nordbayern.de#?#.modul:has(> .modul__header > a[href="https://www.nn.de/nnplus"])
+!
+! mopo.de
+mopo.de#?#.main-preview:has(> .main-preview__content > .main-preview__post-title > img.main-preview__paid-flag)
+mopo.de#?#.skin-slider__slide:has(> .slider-preview > .slider-preview__img-wrap > img[alt="paid"])
+mopo.de#?#.elementor-element:has(> .elementor-widget-container > .skin-slider > .skin-slider__category > a[href="https://www.mopo.de/plus-slider/"])
+mopo.de###wpfront-notification-bar-spacer
+mopo.de##a[href="/plus/"]
