@@ -70,3 +70,8 @@ stern.de##a[data-commerce*="str_plus"]
 stern.de#?#article:has(> div > a[data-commerce*="str_plus"])
 stern.de##div[id*="%20"][id*="lus"]
 !
+! epochtimes.de
+epochtimes.de###premium
+epochtimes.de#?#.main > #etd-hb-2:has(> .card > div[class] > .card-body > a > .premium)
+epochtimes.de#?#.card:has( a .premium)
+!
