@@ -55,3 +55,8 @@ berliner-zeitung.de##.category--b-plus
 berliner-zeitung.de#?#a:has(> div[class] > .m-article-teaser__content > .m-article-teaser__top .has-b-plus-indicator)
 berliner-zeitung.de#?#a:has(> div[class] > .m-article-teaser__content > h2 > .has-b-plus-indicator)
 !
+! badische-zeitung.de
+badische-zeitung.de#?#ul:has(> .media-box__article__box__item > a > p > .badge__0006)
+badische-zeitung.de#?#ul:has(> .media-box__article__box__item > a > p > .badge__0003)
+badische-zeitung.de#?#.article-list__item:has(> a > .article-list__item--mpre > span > .bzpluss--holder)
+!
