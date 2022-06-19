@@ -65,3 +65,8 @@ spiegel.de#?#div[data-sara-click-el="article_teaser"]:has(> article h2 span > sp
 spiegel.de#?#div.relative:has(> .relative > article > a > span > h2 > span > span[data-contains-flags="Spplus-paid"])
 spiegel.de#?#div.relative:has(> div[data-app-headerbar-offset] > div[class]:contains(SPIEGEL+))
 !
+! stern.de
+stern.de##a[data-commerce*="str_plus"]
+stern.de#?#article:has(> div > a[data-commerce*="str_plus"])
+stern.de##div[id*="%20"][id*="lus"]
+!
