@@ -75,3 +75,6 @@ epochtimes.de###premium
 epochtimes.de#?#.main > #etd-hb-2:has(> .card > div[class] > .card-body > a > .premium)
 epochtimes.de#?#.card:has( a .premium)
 !
+! oe24.at
+oe24.at#?#.tabbedBox:has(> section > section > .headline > .row > h2 > .headlineLink:contains(oe24-Plus))
+!
