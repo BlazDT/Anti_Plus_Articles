@@ -78,3 +78,6 @@ epochtimes.de#?#.card:has( a .premium)
 ! oe24.at
 oe24.at#?#.tabbedBox:has(> section > section > .headline > .row > h2 > .headlineLink:contains(oe24-Plus))
 !
+! jungefreiheit.de
+jungefreiheit.de#?#.elementor-widget-container .ee-grid__item:has(> article > .ee-post__body > a > .ee-post__title__heading > span > img[alt*="Premium"])
+!
