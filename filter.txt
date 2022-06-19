@@ -60,3 +60,8 @@ badische-zeitung.de#?#ul:has(> .media-box__article__box__item > a > p > .badge__
 badische-zeitung.de#?#ul:has(> .media-box__article__box__item > a > p > .badge__0003)
 badische-zeitung.de#?#.article-list__item:has(> a > .article-list__item--mpre > span > .bzpluss--holder)
 !
+! spiegel.de
+spiegel.de#?#div[data-sara-click-el="article_teaser"]:has(> article h2 span > span[data-contains-flags="Spplus-paid"])
+spiegel.de#?#div.relative:has(> .relative > article > a > span > h2 > span > span[data-contains-flags="Spplus-paid"])
+spiegel.de#?#div.relative:has(> div[data-app-headerbar-offset] > div[class]:contains(SPIEGEL+))
+!
