@@ -37,8 +37,8 @@ mopo.de##a[href="/plus/"]
 ksta.de#?#article:has(> a.paidLogo_facelift)
 ksta.de##section[data-tracking-module-id="38042740"]
 !
-! kurier.de
-kurier.de#?#.item:has(> .content > .data[data-paidcontent="true"])
+! np-coburg.de,kurier.de
+np-coburg.de,kurier.de#?#.item:has(> .content > .data[data-paidcontent="true"])
 !
 ! sueddeutsche.de
 sueddeutsche.de##.sz-panorama-banderole
