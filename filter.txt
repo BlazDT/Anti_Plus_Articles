@@ -89,3 +89,9 @@ gamestar.de##.plus
 gamestar.de#?#div:has(> .article-list.media > div[class] > span > a > .icon-plus)
 gamestar.de#?#div:has(> .article-list.media > div[class] > span > a > .icon-plus) + hr
 !
+! augsburger-allgemeine.de
+! Slider looks a bit broken though
+augsburger-allgemeine.de##.p-add-plus-m
+augsburger-allgemeine.de#?#a:has( [class] > .aa-plus)
+augsburger-allgemeine.de#?#li:not(.b-carousel__slide):has(> a [class] > .aa-plus)
+!
