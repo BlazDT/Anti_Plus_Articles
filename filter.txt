@@ -37,8 +37,10 @@ mopo.de##a[href="/plus/"]
 ksta.de#?#article:has(> a.paidLogo_facelift)
 ksta.de##section[data-tracking-module-id="38042740"]
 !
-! frankenpost.de,np-coburg.de,kurier.de
-frankenpost.de,np-coburg.de,kurier.de#?#.item:has(> .content > .data[data-paidcontent="true"])
+! stuttgarter-zeitung.de,frankenpost.de,np-coburg.de,kurier.de
+stuttgarter-zeitung.de,frankenpost.de,np-coburg.de,kurier.de#?#.item:has(> .content > .data[data-paidcontent="true"])
+stuttgarter-zeitung.de#?##top-of-page > .site-wrapper.ressort .brick[data-b-title*="Topthema"]:has( .item > .content > .data[data-paidcontent="true"])
+stuttgarter-zeitung.de##div[data-lt="pos_stzplus"]
 !
 ! sueddeutsche.de
 sueddeutsche.de##.sz-panorama-banderole
