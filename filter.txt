@@ -81,3 +81,11 @@ oe24.at#?#.tabbedBox:has(> section > section > .headline > .row > h2 > .headline
 ! jungefreiheit.de
 jungefreiheit.de#?#.elementor-widget-container .ee-grid__item:has(> article > .ee-post__body > a > .ee-post__title__heading > span > img[alt*="Premium"])
 !
+! gamestar.de
+gamestar.de##.plus-banner-top
+gamestar.de##a[href^="/plus/"]
+gamestar.de###section112
+gamestar.de##.plus
+gamestar.de#?#div:has(> .article-list.media > div[class] > span > a > .icon-plus)
+gamestar.de#?#div:has(> .article-list.media > div[class] > span > a > .icon-plus) + hr
+!
