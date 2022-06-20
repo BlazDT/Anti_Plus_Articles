@@ -41,6 +41,8 @@ ksta.de##section[data-tracking-module-id="38042740"]
 stuttgarter-zeitung.de,frankenpost.de,np-coburg.de,kurier.de#?#.item:has(> .content > .data[data-paidcontent="true"])
 stuttgarter-zeitung.de#?##top-of-page > .site-wrapper.ressort .brick[data-b-title*="Topthema"]:has( .item > .content > .data[data-paidcontent="true"])
 stuttgarter-zeitung.de##div[data-lt="pos_stzplus"]
+frankenpost.de#?##top-of-page > .ressort .brick[data-b-title*="LokalAufmacher"]:has( .item > .content > .data[data-paidcontent="true"])
+
 !
 ! sueddeutsche.de
 sueddeutsche.de##.sz-panorama-banderole
