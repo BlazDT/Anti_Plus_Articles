@@ -58,8 +58,11 @@ sueddeutsche.de#?#div[itemprop="articleBody"] > div[class]:has(> figure > a[styl
 !
 ! berliner-zeitung.de
 berliner-zeitung.de##.category--b-plus
+berliner-zeitung.de##.page > .category--b-plus + div + div[class] + .a-separator
 berliner-zeitung.de#?#a:has(> div[class] > .m-article-teaser__content > .m-article-teaser__top .has-b-plus-indicator)
 berliner-zeitung.de#?#a:has(> div[class] > .m-article-teaser__content > h2 > .has-b-plus-indicator)
+berliner-zeitung.de#?#.row > div[class^="col"]:has(> a > div[class] > .m-article-teaser__content > .m-article-teaser__top .has-b-plus-indicator)
+berliner-zeitung.de#?#div[class^="m-article-teaser"] .row .row > div[class^="col"]:has( a > div[class] > .m-article-teaser__content > .m-article-teaser__top .has-b-plus-indicator)
 !
 ! badische-zeitung.de
 badische-zeitung.de#?#ul:has(> .media-box__article__box__item > a > p > .badge__0006)
