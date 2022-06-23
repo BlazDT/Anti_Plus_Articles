@@ -105,3 +105,9 @@ augsburger-allgemeine.de#?#li:not(.b-carousel__slide):has(> a [class] > .aa-plus
 businessinsider.de#?#.article-grid__item:has(> div[class] .teaser-post__header > .teaser-post__labels--has-premium)
 businessinsider.de#?#.article-section:has(> .article-section__content > .article-section__header > .article-section__title > a[href*="/abo/bi-plus"])
 !
+! idowa.de
+idowa.de##.idowa-plus
+idowa.de##a[data-tags="idowa+"]
+idowa.de#?#div[class*="brick"] > .item:has(> .content > a[data-tags="idowa+"])
+||idowa-generator.*.amazonaws.com/idowa-de-idowa-plus-overview.js
+!
