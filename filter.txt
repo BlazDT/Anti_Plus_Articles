@@ -122,3 +122,10 @@ cicero.de#?#.top_article_list > li:has(> div[class] > div[class] > article > a[c
 cicero.de#?#.field--item:has(> div[class] > #box-advertorial-stilwerk)
 cicero.de##.cicero-plus
 !
+! geo.de
+geo.de##.bannerGeoPlus
+geo.de##.group--adtag-with-fallbackcontent
+geo.de##div[id*="GEO%20PLUS"]
+geo.de#?#article:has(> div[class] > div[class*="--geo_plus"])
+geo.de#?#.article__body > .article__embedded-teasers:has(> article[style="display: none !important;"])
+!
