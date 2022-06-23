@@ -141,3 +141,10 @@ welt.de##li[data-qa="Stage.InhouseAd"]
 weltwoche.ch#?#.postTeaser:has(> div[class] div[onclick*="/autor/"] + div[class] > a > span.postTeaserGridAbo)
 weltwoche.ch##.headerIconAbo
 !
+! pnp.de
+pnp.de#?#article:has(> .media > .media-body > a.is-plus)
+pnp.de#?#.article-teaser-col:has(> article > .media > .media-body > a.is-plus)
+pnp.de#?#.container:has(> .section-title > a[href^="/plus/"])
+pnp.de#?#.article-teaser-col:has(> a > .media-body > .is-plus)
+pnp.de#?#div[id^="modul_"]:has(> .container > .section-title > .logo-pnp-plus-image)
+!
