@@ -129,8 +129,8 @@ geo.de##div[id*="GEO%20PLUS"]
 geo.de#?#article:has(> div[class] > div[class*="--geo_plus"])
 geo.de#?#.article__body > .article__embedded-teasers:has(> article[style="display: none !important;"])
 !
-! neuepresse.de
-neuepresse.de#?#div > a:has(> article div[class] > h2 > span[data-testid="paid-icon-container"] > div:not(.hMpZZy))
+! rnd.de,neuepresse.de
+rnd.de,neuepresse.de#?#div > a:has(> article div[class] > h2 > span[data-testid="paid-icon-container"] > div:not(.hMpZZy))
 !
 ! welt.de
 welt.de#?#ul > li:has(> article > div[class] h4.o-teaser__title > .o-teaser__premium-icon)
