@@ -114,3 +114,11 @@ idowa.de##a[data-tags="idowa+"]
 idowa.de#?#div[class*="brick"] > .item:has(> .content > a[data-tags="idowa+"])
 ||idowa-generator.*.amazonaws.com/idowa-de-idowa-plus-overview.js
 !
+! cicero.de
+! Not all articles are marked as Plus, so cannot be hidden
+cicero.de#?#article:has(> div[class] > div[class] a[class*="paywall-"])
+cicero.de#?#.field--item:has(> div[class] > .portlet__body article > a[class*="paywall-"])
+cicero.de#?#.top_article_list > li:has(> div[class] > div[class] > article > a[class*="paywall-"])
+cicero.de#?#.field--item:has(> div[class] > #box-advertorial-stilwerk)
+cicero.de##.cicero-plus
+!
