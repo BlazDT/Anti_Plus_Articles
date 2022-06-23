@@ -3,6 +3,7 @@ heise.de#?#article[data-upscore-object-id]:has( a > footer > svg > title:contain
 heise.de#?#article[data-upscore-object-id]:has( a > div > footer > svg > title:contains(heise_plus_positiv))
 heise.de#?#.ho-modules-container > div[data-component="TeasersModule"]:has(> a-sticky > header > img[alt="heise+"])
 heise.de#?#a-collapse-group > .flex-1:has(> div[class] > a-collapse > header > span:contains(beliebt bei Abonnenten))
+heise.de##.stage--heiseplus
 !
 ! bild.de
 ! Not all articles hidable on m.bild.de
