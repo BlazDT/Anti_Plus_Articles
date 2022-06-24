@@ -4,6 +4,9 @@ heise.de#?#article[data-upscore-object-id]:has( a > div > footer > svg > title:c
 heise.de#?#.ho-modules-container > div[data-component="TeasersModule"]:has(> a-sticky > header > img[alt="heise+"])
 heise.de#?#.ho-modules-container > div[data-component="TeasersModule"]:has(> script:contains(isAccessibleForFree":false):not(:contains(isAccessibleForFree":true)))
 heise.de#?#a-collapse-group > .flex-1:has(> div[class] > a-collapse > header > span:contains(beliebt bei Abonnenten))
+heise.de#?#.article-index > article:has(> a > .a-article-teaser__content-container > .a-article-meta > .a-article-meta__heiseplus-logo)
+heise.de#?#.article-content > a-collapse:has(> .a-box__target > .a-box__content > article > .a-article-teaser__link > .a-article-teaser__content-container > .a-article-meta > .a-article-meta__heiseplus-logo)
+heise.de##a[href="/plus/"]
 heise.de##.stage--heiseplus
 !
 ! bild.de
