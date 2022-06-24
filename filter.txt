@@ -154,3 +154,7 @@ pnp.de#?#.container:has(> .section-title > a[href^="/plus/"])
 pnp.de#?#.article-teaser-col:has(> a > .media-body > .is-plus)
 pnp.de#?#div[id^="modul_"]:has(> .container > .section-title > .logo-pnp-plus-image)
 !
+! 11freunde.de
+11freunde.de##.teaser--paid-only
+11freunde.de###clubHeaderIcon
+!
