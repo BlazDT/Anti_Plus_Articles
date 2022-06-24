@@ -8,6 +8,7 @@ heise.de#?#.article-index > article:has(> a > .a-article-teaser__content-contain
 heise.de#?#.article-content > a-collapse:has(> .a-box__target > .a-box__content > article > .a-article-teaser__link > .a-article-teaser__content-container > .a-article-meta > .a-article-meta__heiseplus-logo)
 heise.de##a[href="/plus/"]
 heise.de##.stage--heiseplus
+heise.de##a-teaser[campaign^="intern.abo.plus.cam-article"]
 !
 ! bild.de
 ! Not all articles hidable on m.bild.de
