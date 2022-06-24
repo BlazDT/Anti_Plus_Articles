@@ -158,3 +158,12 @@ pnp.de#?#div[id^="modul_"]:has(> .container > .section-title > .logo-pnp-plus-im
 11freunde.de##.teaser--paid-only
 11freunde.de###clubHeaderIcon
 !
+! capital.de
+capital.de##a[data-commerce*="cap_plus"]
+capital.de##.bannerCapPlusLink
+capital.de###Ratgeber-Dossiers
+capital.de##div[id*="Capital+"]
+capital.de#?#.group--adtag-with-fallbackcontent:has(> .group__items > article > .teaser__text-content > .teaser__brand-identifier--capital_plus)
+capital.de#?#article:has(> div[class^="teaser"] > .teaser__brand-identifier--capital_plus)
+capital.de#?#.article__embedded-teasers:has(> article > .teaser__text-content > .teaser__brand-identifier--capital_plus)
+!
