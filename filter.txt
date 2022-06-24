@@ -79,6 +79,7 @@ badische-zeitung.de#?#.article-list__item:has(> a > .article-list__item--mpre > 
 spiegel.de#?#div[data-sara-click-el="article_teaser"]:has(> article h2 span > span[data-contains-flags="Spplus-paid"])
 spiegel.de#?#div.relative:has(> .relative > article > a > span > h2 > span > span[data-contains-flags="Spplus-paid"])
 spiegel.de#?#div.relative:has(> div[data-app-headerbar-offset] > div[class]:contains(SPIEGEL+))
+spiegel.de#?#.swiper-slide:has(> article > h2 > a > span > span[data-contains-flags="Spplus-paid"])
 !
 ! stern.de
 stern.de##a[data-commerce*="str_plus"]
