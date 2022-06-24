@@ -31,6 +31,7 @@ faz.net##.mm-adbox
 !
 ! nordbayern.de
 nordbayern.de#?#.modul:has(> .modul__header > a[href="https://www.nn.de/nnplus"])
+nordbayern.de#?#.article__richtext .modul:has(> div[class^="content-teaser"] > .row > div[class] > a > .modul__teaser> .topline > .icon-nnplus)
 !
 ! mopo.de
 mopo.de#?#.main-preview:has(> .main-preview__content > .main-preview__post-title > img.main-preview__paid-flag)
