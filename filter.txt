@@ -191,3 +191,10 @@ wiwo.de##div[tt-value="Plusbühne"]
 wiwo.de#?#.o-layout__item:has(> .isPremiumTeaser)
 wiwo.de#?#.c-gallery__item:has(> label[data-command*="WiWo+"])
 !
+! lr-online.de
+lr-online.de##.edge-ad
+lr-online.de##a[aria-label*="Plus-Abo"]
+lr-online.de###retresco-recommendations
+lr-online.de#?#.row > div[class^="col-"]:has(> div[data-cid] > div[class] > span > .lro-plus-badge)
+lr-online.de#?#.article-text .text:has(> div[class] .title > span > .freemium-icon.lro)
+!
