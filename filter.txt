@@ -198,3 +198,11 @@ lr-online.de###retresco-recommendations
 lr-online.de#?#.row > div[class^="col-"]:has(> div[data-cid] > div[class] > span > .lro-plus-badge)
 lr-online.de#?#.article-text .text:has(> div[class] .title > span > .freemium-icon.lro)
 !
+! mittelbayerische.de
+mittelbayerische.de##.plus-wrapper
+! will leave left-over, else it would break a display on regional category
+mittelbayerische.de#?#.teaser:has(> a .icon-mzplus)
+!
+mittelbayerische.de#?#section:has(> h3 > a[href*="-plus/"])
+mittelbayerische.de#$#.collection > li { height: calc(100%) !important; }
+!
