@@ -53,7 +53,6 @@ stuttgarter-zeitung.de,frankenpost.de,np-coburg.de,kurier.de#?#.item:has(> .cont
 stuttgarter-zeitung.de#?##top-of-page > .site-wrapper.ressort .brick[data-b-title*="Topthema"]:has( .item > .content > .data[data-paidcontent="true"])
 stuttgarter-zeitung.de##div[data-lt="pos_stzplus"]
 frankenpost.de#?##top-of-page > .ressort .brick[data-b-title*="LokalAufmacher"]:has( .item > .content > .data[data-paidcontent="true"])
-
 !
 ! sueddeutsche.de
 sueddeutsche.de##.sz-panorama-banderole
@@ -170,4 +169,13 @@ capital.de##div[id*="Capital+"]
 capital.de#?#.group--adtag-with-fallbackcontent:has(> .group__items > article > .teaser__text-content > .teaser__brand-identifier--capital_plus)
 capital.de#?#article:has(> div[class^="teaser"] > .teaser__brand-identifier--capital_plus)
 capital.de#?#.article__embedded-teasers:has(> article > .teaser__text-content > .teaser__brand-identifier--capital_plus)
+!
+! zeit.de
+zeit.de##article[data-zplus="zplus"]
+zeit.de##a[data-ct-label="zplus"]
+zeit.de##.kpi-table__col--zplus
+zeit.de##.cp-area--headed-zplus
+zeit.de##.cp-region--dossier
+zeit.de#?#.kpi-table__table--col3 > tbody > tr > td:has(> article[data-zplus="zplus"])
+zeit.de#?#.cp-region--duo > .cp-area:has(> article[data-zplus="zplus"])
 !
