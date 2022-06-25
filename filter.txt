@@ -179,3 +179,15 @@ zeit.de##.cp-region--dossier
 zeit.de#?#.kpi-table__table--col3 > tbody > tr > td:has(> article[data-zplus="zplus"])
 zeit.de#?#.cp-region--duo > .cp-area:has(> article[data-zplus="zplus"])
 !
+! wiwo.de
+wiwo.de##.c-nav__wiwoplus
+wiwo.de##.isPremiumTeaser
+wiwo.de##.isPremiumTeaser + .c-teaser--related-container
+wiwo.de##.o-artbox--articleboxplus
+! "Lesen Sie auch" not hidable in article without breaking it when <em> has non-Plus article
+wiwo.de##a[href^="/my/"]
+!
+wiwo.de##div[tt-value="Plusbühne"]
+wiwo.de#?#.o-layout__item:has(> .isPremiumTeaser)
+wiwo.de#?#.c-gallery__item:has(> label[data-command*="WiWo+"])
+!
