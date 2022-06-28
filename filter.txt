@@ -7,6 +7,9 @@ heise.de#?#a-collapse-group > .flex-1:has(> div[class] > a-collapse > header > s
 heise.de#?#.article-index > article:has(> a > .a-article-teaser__content-container > .a-article-meta > .a-article-meta__heiseplus-logo)
 heise.de#?#.article-content > a-collapse:has(> .a-box__target > .a-box__content > article > .a-article-teaser__link > .a-article-teaser__content-container > .a-article-meta > .a-article-meta__heiseplus-logo)
 heise.de#?#article.a-article-teaser > a:has(> .a-article-teaser__content-container > .a-article-meta > .a-article-meta__heiseplus-logo)
+! left-overs not fully fixable as there are maybe non-heise+ articles in box
+heise.de#?#article[data-upscore-object-id]:has( a > div > footer > svg > title:contains(heise_plus_positiv)) + hr.border-gray-100
+heise.de##section[data-chunk] > hr:first-child
 heise.de##a[href="/plus/"]
 heise.de##.stage--heiseplus
 heise.de##a-teaser[campaign^="intern.abo.plus.cam-article"]
