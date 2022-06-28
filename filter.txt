@@ -17,17 +17,19 @@ heise.de##a-teaser[campaign^="intern.abo.plus.cam-article"]
 ! bild.de
 ! Not all articles hidable on m.bild.de
 bild.de##a[href="https://offers.bild.de/info.html"]
-bild.de#?#li:has(> a[href="https://offers.bild.de/info.html"])
+bild.de##div.hentry[data-tb-region-item-premium]
 bild.de##a[href*="/bild-plus"]
-bild.de#?#.block--colored:has(> .block__layout-wrapper > .layout > article > a[href*="/bild-plus"])
 bild.de##section[data-block-id="top-bildplus-artikel"]
-bild.de#$?#article:has(> a[href*="/bild-plus"]) { remove: true; }
 bild.de##a[href^="https://don.bild.de/www/off/"]
+bild.de#?#.block--colored:has(> .block__layout-wrapper > .layout > article > a[href*="/bild-plus"])
+bild.de#?#li:has(> div.hentry[data-tb-region-item-premium])
+bild.de#?#li:has(> a[href="https://offers.bild.de/info.html"])
 bild.de#?#div[documenttype="specialNavigation"]:has(> .slider > div[class] > div[class] > a[href*="/bildplus"])
 bild.de#?#.article-body > .related-topics:has(> .related-topics__container:empty)
-m.bild.de#$?#article:has(> a > figure > .red-teaser-image > span > svg > path[clip-rule="evenodd"] ) { remove: true; }
+bild.de#$?#article:has(> a[href*="/bild-plus"]) { remove: true; }
 m.bild.de##div.hentry[data-tb-region-item-premium]
 m.bild.de#?#ul > li:has(> div.hentry[data-tb-region-item-premium])
+m.bild.de#$?#article:has(> a > figure > .red-teaser-image > span > svg > path[clip-rule="evenodd"] ) { remove: true; }
 !
 ! faz.net
 faz.net#?#article:not(.atc):has( header span > .ico-Base_FazPlus)
