@@ -212,3 +212,9 @@ mittelbayerische.de#?#.teaser:has(> a .icon-mzplus)
 mittelbayerische.de#?#section:has(> h3 > a[href*="-plus/"])
 mittelbayerische.de#$#.collection > li { height: calc(100%) !important; }
 !
+! weser-kurier.de
+weser-kurier.de##a[href*="abo.weser-kurier.de"]
+weser-kurier.de#?#.webpagefragment-section:has(> div > h2 > a[href*="/wk-plus/"])
+weser-kurier.de#?#article:has(> a > .teaser-text > .premium-content__indicator)
+weser-kurier.de#?#.webpagefragment-section:has(> .webpagefragment-wrapper:only-child > .article__related-article > p + article[style*="display: none !important;"]:last-child)
+!
