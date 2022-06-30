@@ -221,3 +221,10 @@ weser-kurier.de#?#.webpagefragment-section:has(> div > h2 > a[href*="/wk-plus/"]
 weser-kurier.de#?#article:has(> a > .teaser-text > .premium-content__indicator)
 weser-kurier.de#?#.webpagefragment-section:has(> .webpagefragment-wrapper:only-child > .article__related-article > p + article[style*="display: none !important;"]:last-child)
 !
+! rp-online.de
+rp-online.de##.park-header-v2__pluslink
+rp-online.de#?#.park-teaser-collection__list-item:has(> article > a > .park-teaser__body > header span > .park-icon-paid)
+rp-online.de#?#.park-teaser-image-list:has(> header > .park-section-headline > span.park-section-headline__text:contains(RP+))
+rp-online.de#?#li[class*="__item"]:has(> article > a span > .park-icon-paid)
+rp-online.de#?#.park-container > header:has(> .park-opener__text-wrapper > .park-opener__text > a span > .park-icon-paid)
+!
