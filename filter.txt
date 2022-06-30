@@ -88,6 +88,9 @@ spiegel.de#?#div[data-sara-click-el="article_teaser"]:has(> article h2 span > sp
 spiegel.de#?#div.relative:has(> .relative > article > a > span > h2 > span > span[data-contains-flags="Spplus-paid"])
 spiegel.de#?#div.relative:has(> div[data-app-headerbar-offset] > div[class]:contains(SPIEGEL+))
 spiegel.de#?#.swiper-slide:has(> article > h2 > a > span > span[data-contains-flags="Spplus-paid"])
+spiegel.de#?#li:has(> div[class] > div[class] > a > span > span > span[data-contains-flags="Spplus-paid"])
+spiegel.de#?#div[data-area="body"] > aside:has(> div[data-area="related_articles"] > div > span + .border-separator-b + div[class]:last-child > div[class] > a > .relative > span > span[data-contains-flags="Spplus-paid"])
+spiegel.de#?#li.list-disc:has(> .items-center > a > span[data-contains-flags="Spplus-paid"])
 !
 ! stern.de
 stern.de##a[data-commerce*="str_plus"]
