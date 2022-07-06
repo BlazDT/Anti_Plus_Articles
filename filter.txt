@@ -229,3 +229,10 @@ rp-online.de#?#.park-teaser-image-list:has(> header > .park-section-headline > s
 rp-online.de#?#li[class*="__item"]:has(> article > a span > .park-icon-paid)
 rp-online.de#?#.park-container > header:has(> .park-opener__text-wrapper > .park-opener__text > a span > .park-icon-paid)
 !
+! rosenheim24.de
+rosenheim24.de###id-Container-508709
+rosenheim24.de###id-Container-485934
+rosenheim24.de###id-Container-504322
+rosenheim24.de##a[href="//www.rosenheim24.de/plus/"]
+rosenheim24.de#?#div[class^="id-LB-e--"]:has(> div > .id-Teaser-el-content > .id-Teaser-el-content-headline--paywall)
+!
