@@ -193,6 +193,7 @@ zeit.de##a[data-ct-label="zplus"]
 zeit.de##.kpi-table__col--zplus
 zeit.de##.cp-area--headed-zplus
 zeit.de##.cp-region--dossier
+zeit.de##aside[aria-label="Exklusiv für Abonnenten"]
 zeit.de#?#.kpi-table__table--col3 > tbody > tr > td:has(> article[data-zplus="zplus"])
 zeit.de#?#.cp-region--duo > .cp-area:has(> article[data-zplus="zplus"])
 !
