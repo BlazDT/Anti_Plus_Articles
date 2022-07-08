@@ -94,11 +94,12 @@ spiegel.de#?#li.list-disc:has(> .items-center > a > span[data-contains-flags="Sp
 !
 ! stern.de
 stern.de##a[data-commerce*="str_plus"]
+stern.de##div[id*="%20"][id*="lus"]
 stern.de#?#article:has(> div > a[data-commerce*="str_plus"])
 stern.de#?#article:has(> .teaser__text-content > .teaser__brand-identifier--str_crime)
 stern.de#?#article:has(> .teaser__text-content > .teaser__brand-identifier--geo_plus)
 stern.de#?#article:has(> .teaser__text-content > .teaser__brand-identifier--capital_plus_extern)
-stern.de##div[id*="%20"][id*="lus"]
+stern.de#?#.article__body > .group:has(> .group__items > .group__embedded-teasers > article[style="display: none !important;"]:only-child)
 !
 ! epochtimes.de
 epochtimes.de###premium
