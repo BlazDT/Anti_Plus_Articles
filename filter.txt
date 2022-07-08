@@ -100,6 +100,7 @@ stern.de#?#article:has(> .teaser__text-content > .teaser__brand-identifier--str_
 stern.de#?#article:has(> .teaser__text-content > .teaser__brand-identifier--geo_plus)
 stern.de#?#article:has(> .teaser__text-content > .teaser__brand-identifier--capital_plus_extern)
 stern.de#?#.article__body > .group:has(> .group__items > .group__embedded-teasers > article[style="display: none !important;"]:only-child)
+stern.de#?#.article__body > .article__embedded-teasers:has(> article[style="display: none !important;"]:only-child)
 !
 ! epochtimes.de
 epochtimes.de###premium
