@@ -69,6 +69,8 @@ sueddeutsche.de#?#a:has(> .teaser-item__description > .teaser-item__overline > s
 sueddeutsche.de#?#a:has(> div > h3 > div > span > svg > title:contains(SZ Plus))
 sueddeutsche.de#?#div[data-teaserlist-element]:has(> a[style="display: none !important;"])
 sueddeutsche.de#?#div[itemprop="articleBody"] > div[class]:has(> figure > a[style="display: none !important;"])
+sueddeutsche.de#?#section > ol > li:has(> div > article:only-child > a[style="display: none !important;"])
+sueddeutsche.de#?#ul > li:has(> a[href="https://plus.sueddeutsche.de"])
 !
 ! berliner-zeitung.de
 berliner-zeitung.de##.category--b-plus
