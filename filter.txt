@@ -246,3 +246,6 @@ rosenheim24.de###id-Container-504322
 rosenheim24.de##a[href="//www.rosenheim24.de/plus/"]
 rosenheim24.de#?#div[class^="id-LB-e--"]:has(> div > .id-Teaser-el-content > .id-Teaser-el-content-headline--paywall)
 !
+! gamesworld.de
+gamesworld.de#?#.item:has(> a > p.title:contains([PLUS]))
+!
