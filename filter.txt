@@ -266,3 +266,6 @@ tagblatt.ch#?#section:has(> .pageelement__inner:only-child > .widget__row:only-c
 tagblatt.ch#?#.einklinker-trending-row > div[data-nzz-tid="teaser"]:has(> div[data-nzz-teaser-content] > .metainfo .metainfo__wrapper > .icon--premium)
 tagblatt.ch#?#article:has(> div[data-nzz-tid="teaser"] > div[data-nzz-teaser-content] >  a > .teaser__wrapper > .teaser__title > .catchline--premium)
 !
+! braunschweiger-zeitung.de
+braunschweiger-zeitung.de#?#article:has(> a .ispayedcontent)
+!
