@@ -255,3 +255,14 @@ pcgameshardware.de##.pcghPlus
 pcgameshardware.de#?#.articleTicker:has(> .articleTickerHead > [class]:contains(Plus-Artikel))
 pcgameshardware.de#?#.articleticker_item:has(> div[class] > div a:contains([PLUS]))
 !
+! tagblatt.ch
+tagblatt.ch##li[data-nzz-mainmenuitem="/aboplus"]
+tagblatt.ch#?#article:has(> div[data-nzz-cp] > .teaser__content > a > .teaser__wrapper > .teaser__title > .catchline--premium)
+tagblatt.ch#?#div[pagetype="Page"]:has(> article[style="display: none !important;"]:only-child)
+tagblatt.ch#?#section:has(> .pageelement__inner > .container > .container__content a[href="/aboplus"][data-nzz-tid="headline-title"])
+tagblatt.ch#?#.widget__row:has(> div[style="display: none !important;"]:first-child + div[style="display: none !important;"] + div[style="display: none !important;"]:last-child)
+tagblatt.ch#?#div[pagetype="Page"]:has(> article[style="display: none !important;"]:first-child + .first:last-child)
+tagblatt.ch#?#section:has(> .pageelement__inner:only-child > .widget__row:only-child > div[style="display: none !important;"]:first-child + div[style="display: none !important;"]:last-child)
+tagblatt.ch#?#.einklinker-trending-row > div[data-nzz-tid="teaser"]:has(> div[data-nzz-teaser-content] > .metainfo .metainfo__wrapper > .icon--premium)
+tagblatt.ch#?#article:has(> div[data-nzz-tid="teaser"] > div[data-nzz-teaser-content] >  a > .teaser__wrapper > .teaser__title > .catchline--premium)
+!
