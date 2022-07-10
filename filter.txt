@@ -249,3 +249,9 @@ rosenheim24.de#?#div[class^="id-LB-e--"]:has(> div > .id-Teaser-el-content > .id
 ! gamesworld.de
 gamesworld.de#?#.item:has(> a > p.title:contains([PLUS]))
 !
+! pcgameshardware.de
+pcgameshardware.de##.at_premium
+pcgameshardware.de##.pcghPlus
+pcgameshardware.de#?#.articleTicker:has(> .articleTickerHead > [class]:contains(Plus-Artikel))
+pcgameshardware.de#?#.articleticker_item:has(> div[class] > div a:contains([PLUS]))
+!
