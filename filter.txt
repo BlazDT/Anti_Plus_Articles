@@ -1,3 +1,6 @@
+! Title: Anti-Plus-Articles filter
+! Description: Hides paywall articles
+!
 ! heise.de
 heise.de#?#article[data-upscore-object-id]:has( a > footer > svg > title:contains(heise_plus_positiv))
 heise.de#?#article[data-upscore-object-id]:has( a > div > footer > svg > title:contains(heise_plus_positiv))
