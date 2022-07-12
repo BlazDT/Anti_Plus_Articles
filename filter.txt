@@ -273,3 +273,15 @@ braunschweiger-zeitung.de#?#article:has(> a .ispayedcontent)
 mainpost.de#?#article:has(> a > .teaser-content > .headline > .behindWall)
 mainpost.de#?#article:has(> .teaser-content > a > .headline > .behindWall)
 !
+! business-standard.com
+business-standard.com#?#.article:has(> h2 > img[alt*="Premium"])
+business-standard.com#?#.row-panel:has(> .row-inner > .paid_article_key)
+business-standard.com#?#li:has(> h2 > img[alt*="Premium"])
+business-standard.com#?#li:has(> h2 > span > .paid_article_key)
+business-standard.com#?#.op-inner > div[class^="col-m-"]:has(> h4 > img[alt*="Premium"])
+business-standard.com#?#.op-inner:has(> h4 > img[alt*="Premium"])
+business-standard.com#?#.owl-item > .item > div:has(> h3 > .paid_article_key)
+business-standard.com#?#.article-left:has(> div > h2 > .paid_article_key)
+business-standard.com#?#.top-section:has(> h2 > .paid_article_key)
+business-standard.com#?#.aticle-txt:has(> li > span > .paid_article_key)
+!
