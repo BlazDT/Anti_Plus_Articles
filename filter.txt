@@ -59,6 +59,7 @@ stuttgarter-zeitung.de,frankenpost.de,np-coburg.de,kurier.de#?#.item:has(> .cont
 stuttgarter-zeitung.de#?##top-of-page > .site-wrapper.ressort .brick[data-b-title*="Topthema"]:has( .item > .content > .data[data-paidcontent="true"])
 stuttgarter-zeitung.de##div[data-lt="pos_stzplus"]
 frankenpost.de#?##top-of-page > .ressort .brick[data-b-title*="LokalAufmacher"]:has( .item > .content > .data[data-paidcontent="true"])
+frankenpost.de#?#.brick:has(> .compact-brick:only-child > .item[style="display: none !important;"]:only-child)
 !
 ! sueddeutsche.de
 sueddeutsche.de##.sz-panorama-banderole
