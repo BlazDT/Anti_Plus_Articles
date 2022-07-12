@@ -269,3 +269,7 @@ tagblatt.ch#?#article:has(> div[data-nzz-tid="teaser"] > div[data-nzz-teaser-con
 ! braunschweiger-zeitung.de
 braunschweiger-zeitung.de#?#article:has(> a .ispayedcontent)
 !
+! mainpost.de
+mainpost.de#?#article:has(> a > .teaser-content > .headline > .behindWall)
+mainpost.de#?#article:has(> .teaser-content > a > .headline > .behindWall)
+!
