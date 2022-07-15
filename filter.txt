@@ -292,3 +292,8 @@ business-standard.com#?#.aticle-txt:has(> li > span > .paid_article_key)
 ! infranken.de
 infranken.de#?#.listing-item:has( > article > .teaser-inner > .post-content > .post-badge-plus)
 !
+! golem.de
+golem.de##a[href="https://www.golem.de/specials/golemplus/"]
+golem.de##.golemplus
+golem.de#?#li:has(> .golemplus)
+!
