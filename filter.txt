@@ -297,3 +297,8 @@ golem.de##a[href="https://www.golem.de/specials/golemplus/"]
 golem.de##.golemplus
 golem.de#?#li:has(> .golemplus)
 !
+! saechsische.de
+! Some plus-articles are free (looks to be the most recent ones and can be found in their news ticker at top). There is nothing in code to check if the one is free or paid. So there are maybe some free ones blocked which are not in their ticker
+saechsische.de#?#.article-box[data-articleid]:has(> .article-box__text > .article-box__info > .article-badge--plus)
+saechsische.de#?#.article-slider:has(> .article-slider-header > .article-slider-header__title > a[href="das-beste-aus-sz-plus"])
+!
