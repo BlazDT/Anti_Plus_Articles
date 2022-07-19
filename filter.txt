@@ -126,6 +126,8 @@ gamestar.de###section112
 gamestar.de##.plus
 gamestar.de#?#div:has(> .article-list.media > div[class] > span > a > .icon-plus)
 gamestar.de#?#div:has(> .article-list.media > div[class] > span > a > .icon-plus) + hr
+gamestar.de#?#.box-reload .media:has(> div[class] > a > span > .topleft.grn)
+gamestar.de#?#.box-reload .media:has(> div[class] > a > span > .topleft.grn) + hr
 !
 ! augsburger-allgemeine.de
 ! Slider looks a bit broken though
