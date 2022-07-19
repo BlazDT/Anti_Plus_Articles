@@ -306,4 +306,5 @@ saechsische.de#?#.article-slider:has(> .article-slider-header > .article-slider-
 !
 ! gamepro.de
 gamepro.de###plus-sp-toggle
+gamepro.de##.plus-badge
 !
