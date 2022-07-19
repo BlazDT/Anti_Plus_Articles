@@ -304,3 +304,6 @@ golem.de#?#li:has(> .golemplus)
 saechsische.de#?#.article-box[data-articleid]:has(> .article-box__text > .article-box__info > .article-badge--plus)
 saechsische.de#?#.article-slider:has(> .article-slider-header > .article-slider-header__title > a[href="das-beste-aus-sz-plus"])
 !
+! gamepro.de
+gamepro.de###plus-sp-toggle
+!
