@@ -166,6 +166,7 @@ rnd.de,neuepresse.de#?#div > a:has(> article div[class] > h2 > span[data-testid=
 !
 ! welt.de
 welt.de##li[data-qa="Stage.InhouseAd"]
+welt.de##.c-highlight-stage
 welt.de#?#li:has( > article > ul > li > .o-teaser__body > .c-dreifaltigkeit > .o-teaser__title > .o-teaser__premium-icon)
 welt.de#?#ul > li:has(> article > div[class] h4.o-teaser__title > .o-teaser__premium-icon)
 welt.de#?#.c-article-text > .c-inline-element:has(> div[data-qa="InlineTeaser"] > .c-inline-teaser__body .o-teaser__premium-icon)
