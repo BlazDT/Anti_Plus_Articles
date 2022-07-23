@@ -310,3 +310,9 @@ saechsische.de#?#.article-slider:has(> .article-slider-header > .article-slider-
 gamepro.de###plus-sp-toggle
 gamepro.de##.plus-badge
 !
+! manager-magazin.de
+manager-magazin.de###mmPlusBanner
+manager-magazin.de#?#article:has( h2 a > span span[data-contains-flags*="plus-paid"])
+manager-magazin.de#?#li:has(> a > span span[data-contains-flags*="plus-paid"])
+manager-magazin.de#?#div[data-area="related_articles"] li:has(> div a > span span[data-contains-flags*="plus-paid"])
+!
