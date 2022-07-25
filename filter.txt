@@ -332,3 +332,7 @@ moz.de#?#.teaser-current-news > div[class^="col-"] > .row:has(> .title > .d-inli
 moz.de#?#.text > .row:has(> div[class^="col-"]:last-child > .title > span > .freemium-icon)
 moz.de#?#.pt-md-3:has(> div[class^="col-"][style="display: none !important;"]:first-child + div[class^="col-"][style="display: none !important;"] + div[class^="col-"][style="display: none !important;"]:last-child)
 !
+! topagrar.com
+topagrar.com#?#div[data-vr-contentbox]:has(> a > div > p > span > img[alt*="plus"])
+topagrar.com#?#a:has(> div > p > span > img[alt*="plus"])
+!
