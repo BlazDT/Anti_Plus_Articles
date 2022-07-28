@@ -303,6 +303,7 @@ infranken.de#?#.listing-item:has( > article > .teaser-inner > .post-content > .p
 golem.de##a[href="https://www.golem.de/specials/golemplus/"]
 golem.de##.golemplus
 golem.de#?#li:has(> .golemplus)
+golem.de#?#.media__teaser-list > li:has(> .longread-teaser > .media-wrap > .media-slider > .media-slider__wrapper > li.golemplus:first-child + li.golemplus + li.golemplus + li.golemplus + li.golemplus + li.golemplus)
 !
 ! saechsische.de
 ! Some plus-articles are free (looks to be the most recent ones and can be found in their news ticker at top). There is nothing in code to check if the one is free or paid. So there are maybe some free ones blocked which are not in their ticker
