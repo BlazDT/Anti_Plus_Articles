@@ -102,6 +102,8 @@ spiegel.de#?#.swiper-slide:has(> article > h2 > a > span > span[data-contains-fl
 spiegel.de#?#li:has(> div[class] > div[class] > a > span > span > span[data-contains-flags="Spplus-paid"])
 spiegel.de#?#div[data-area="body"] > aside:has(> div[data-area="related_articles"] > div > span + .border-separator-b + div[class]:last-child > div[class] > a > .relative > span > span[data-contains-flags="Spplus-paid"])
 spiegel.de#?#li.list-disc:has(> .items-center > a > span[data-contains-flags="Spplus-paid"])
+spiegel.de#?#.w-full:has(> div[data-block-el="title"] > div[data-area="title-margincolumn"]:contains(SPIEGEL+))
+spiegel.de##div[data-has-paid-access-hidden]
 !
 ! stern.de
 stern.de##a[data-commerce*="str_plus"]
