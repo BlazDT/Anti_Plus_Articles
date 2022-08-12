@@ -42,6 +42,9 @@ faz.net#?#.sld-TeaserMore_Item:has(> div[class] > article header > p > span > sp
 faz.net#?#.o-Grid_Col:has(> article[style="display: none !important;"])
 faz.net##div[data-tb-region="Das Beste von F+"]
 faz.net##.mm-adbox
+faz.net##a[data-is-premium="true"]
+m.faz.net#?#.teaser:has(> a > .textbox > .tsr-header > .tsr-topic > .plus-icon)
+m.faz.net###plusannouncementwidget
 !
 ! nordbayern.de
 nordbayern.de#?#.modul:has(> .modul__header > a[href="https://www.nn.de/nnplus"])
