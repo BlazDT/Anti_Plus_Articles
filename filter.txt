@@ -31,6 +31,7 @@ bild.de#?#li:has(> a[href="https://offers.bild.de/info.html"])
 bild.de#?#div[documenttype="specialNavigation"]:has(> .slider > div[class] > div[class] > a[href*="/bildplus"])
 bild.de#?#.article-body > .related-topics:has(> .related-topics__container:empty)
 bild.de#?#.article-body > figure:has(> .video-figure > a[href*="bild-plus"])
+bild.de#?#.block--titled:has(> .block-title > span > a[href*="/bild-plus/"])
 bild.de#$?#article:has(> a[href*="/bild-plus"]) { remove: true; }
 m.bild.de##div.hentry[data-tb-region-item-premium]
 m.bild.de#?#ul > li:has(> div.hentry[data-tb-region-item-premium])
