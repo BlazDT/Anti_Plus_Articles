@@ -2,17 +2,17 @@
 ! Description: Hides links to paywall articles
 !
 ! heise.de
-heise.de#?#article[data-upscore-object-id]:has( a > footer > svg > title:contains(heise_plus_positiv))
-heise.de#?#article[data-upscore-object-id]:has( a > div > footer > svg > title:contains(heise_plus_positiv))
-heise.de#?#.ho-modules-container > div[data-component="TeasersModule"]:has(> a-sticky > header > img[alt="heise+"])
-heise.de#?#.ho-modules-container > div[data-component="TeasersModule"]:has(> script:contains(isAccessibleForFree":false):not(:contains(isAccessibleForFree":true)))
-heise.de#?#a-collapse-group > .flex-1:has(> div[class] > a-collapse > header > span:contains(beliebt bei Abonnenten))
-heise.de#?#.article-index > article:has(> a > .a-article-teaser__content-container > .a-article-meta > .a-article-meta__heiseplus-logo)
-heise.de#?#.article-content > a-collapse:has(> .a-box__target > .a-box__content > article > .a-article-teaser__link > .a-article-teaser__content-container > .a-article-meta > .a-article-meta__heiseplus-logo)
-heise.de#?#article.a-article-teaser > a:has(> .a-article-teaser__content-container > .a-article-meta > .a-article-meta__heiseplus-logo)
+heise.de#?#article[data-upscore-object-id]:-abp-has( a > footer > svg > title:contains(heise_plus_positiv))
+heise.de#?#article[data-upscore-object-id]:-abp-has( a > div > footer > svg > title:contains(heise_plus_positiv))
+heise.de#?#.ho-modules-container > div[data-component="TeasersModule"]:-abp-has(> a-sticky > header > img[alt="heise+"])
+heise.de#?#.ho-modules-container > div[data-component="TeasersModule"]:-abp-has(> script:contains(isAccessibleForFree":false):not(:contains(isAccessibleForFree":true)))
+heise.de#?#a-collapse-group > .flex-1:-abp-has(> div[class] > a-collapse > header > span:contains(beliebt bei Abonnenten))
+heise.de#?#.article-index > article:-abp-has(> a > .a-article-teaser__content-container > .a-article-meta > .a-article-meta__heiseplus-logo)
+heise.de#?#.article-content > a-collapse:-abp-has(> .a-box__target > .a-box__content > article > .a-article-teaser__link > .a-article-teaser__content-container > .a-article-meta > .a-article-meta__heiseplus-logo)
+heise.de#?#article.a-article-teaser > a:-abp-has(> .a-article-teaser__content-container > .a-article-meta > .a-article-meta__heiseplus-logo)
 ! left-overs not fully fixable as there are maybe non-heise+ articles in box
-heise.de#?#article[data-upscore-object-id]:has( a > div > footer > svg > title:contains(heise_plus_positiv)) + hr.border-gray-100
-heise.de#?#li:has(> article:only-child > a > div[class] > .a-article-teaser__content-container > footer > .a-article-meta__heiseplus-logo)
+heise.de#?#article[data-upscore-object-id]:-abp-has( a > div > footer > svg > title:contains(heise_plus_positiv)) + hr.border-gray-100
+heise.de#?#li:-abp-has(> article:only-child > a > div[class] > .a-article-teaser__content-container > footer > .a-article-meta__heiseplus-logo)
 heise.de##section[data-chunk] > hr:first-child
 heise.de##a[href="/plus/"]
 heise.de##.stage--heiseplus
@@ -25,178 +25,178 @@ bild.de##div.hentry[data-tb-region-item-premium]
 bild.de##a[href*="/bild-plus"]
 bild.de##section[data-block-id="top-bildplus-artikel"]
 bild.de##a[href^="https://don.bild.de/www/off/"]
-bild.de#?#.block--colored:has(> .block__layout-wrapper > .layout > article > a[href*="/bild-plus"])
-bild.de#?#li:has(> div.hentry[data-tb-region-item-premium])
-bild.de#?#li:has(> a[href="https://offers.bild.de/info.html"])
-bild.de#?#div[documenttype="specialNavigation"]:has(> .slider > div[class] > div[class] > a[href*="/bildplus"])
-bild.de#?#.article-body > .related-topics:has(> .related-topics__container:empty)
-bild.de#?#.article-body > figure:has(> .video-figure > a[href*="bild-plus"])
-bild.de#?#.block--titled:has(> .block-title > span > a[href*="/bild-plus/"])
-bild.de#$?#article:has(> a[href*="/bild-plus"]) { remove: true; }
+bild.de#?#.block--colored:-abp-has(> .block__layout-wrapper > .layout > article > a[href*="/bild-plus"])
+bild.de#?#li:-abp-has(> div.hentry[data-tb-region-item-premium])
+bild.de#?#li:-abp-has(> a[href="https://offers.bild.de/info.html"])
+bild.de#?#div[documenttype="specialNavigation"]:-abp-has(> .slider > div[class] > div[class] > a[href*="/bildplus"])
+bild.de#?#.article-body > .related-topics:-abp-has(> .related-topics__container:empty)
+bild.de#?#.article-body > figure:-abp-has(> .video-figure > a[href*="bild-plus"])
+bild.de#?#.block--titled:-abp-has(> .block-title > span > a[href*="/bild-plus/"])
+bild.de#$?#article:-abp-has(> a[href*="/bild-plus"]) { remove: true; }
 m.bild.de##div.hentry[data-tb-region-item-premium]
-m.bild.de#?#ul > li:has(> div.hentry[data-tb-region-item-premium])
-m.bild.de#$?#article:has(> a > figure > .red-teaser-image > span > svg > path[clip-rule="evenodd"] ) { remove: true; }
+m.bild.de#?#ul > li:-abp-has(> div.hentry[data-tb-region-item-premium])
+m.bild.de#$?#article:-abp-has(> a > figure > .red-teaser-image > span > svg > path[clip-rule="evenodd"] ) { remove: true; }
 !
 ! faz.net
-faz.net#?#article:not(.atc):not(.tsr-Top1):not(.tsr-Top1TextInPicture):not(.tsr-Lead):has(header span > .ico-Base_FazPlus)
-faz.net#?#.sld-TeaserMore_Item:has(> div[class] > article header > p > span > span > .ico-Base_FazPlus)
-faz.net#?#.o-Grid_Col:has(> article[style="display: none !important;"])
+faz.net#?#article:not(.atc):not(.tsr-Top1):not(.tsr-Top1TextInPicture):not(.tsr-Lead):-abp-has(header span > .ico-Base_FazPlus)
+faz.net#?#.sld-TeaserMore_Item:-abp-has(> div[class] > article header > p > span > span > .ico-Base_FazPlus)
+faz.net#?#.o-Grid_Col:-abp-has(> article[style="display: none !important;"])
 faz.net##div[data-tb-region="Das Beste von F+"]
 faz.net##.mm-adbox
 faz.net##a[data-is-premium="true"]
-m.faz.net#?#.teaser:has(> a > .textbox > .tsr-header > .tsr-topic > .plus-icon)
+m.faz.net#?#.teaser:-abp-has(> a > .textbox > .tsr-header > .tsr-topic > .plus-icon)
 m.faz.net###plusannouncementwidget
 !
 ! nordbayern.de
-nordbayern.de#?#.modul:has(> .modul__header > a[href="https://www.nn.de/nnplus"])
-nordbayern.de#?#.article__richtext .modul:has(> div[class^="content-teaser"] > .row > div[class] > a > .modul__teaser> .topline > .icon-nnplus)
+nordbayern.de#?#.modul:-abp-has(> .modul__header > a[href="https://www.nn.de/nnplus"])
+nordbayern.de#?#.article__richtext .modul:-abp-has(> div[class^="content-teaser"] > .row > div[class] > a > .modul__teaser> .topline > .icon-nnplus)
 !
 ! mopo.de
-mopo.de#?#.main-preview:has(> .main-preview__content > .main-preview__post-title > img.main-preview__paid-flag)
-mopo.de#?#.skin-slider__slide:has(> .slider-preview > .slider-preview__img-wrap > img[alt="paid"])
-mopo.de#?#.elementor-element:has(> .elementor-widget-container > .skin-slider > .skin-slider__category > a[href="https://www.mopo.de/plus-slider/"])
+mopo.de#?#.main-preview:-abp-has(> .main-preview__content > .main-preview__post-title > img.main-preview__paid-flag)
+mopo.de#?#.skin-slider__slide:-abp-has(> .slider-preview > .slider-preview__img-wrap > img[alt="paid"])
+mopo.de#?#.elementor-element:-abp-has(> .elementor-widget-container > .skin-slider > .skin-slider__category > a[href="https://www.mopo.de/plus-slider/"])
 mopo.de###wpfront-notification-bar-spacer
 mopo.de##a[href="/plus/"]
 !
 ! ksta.de
-ksta.de#?#article:has(> a.paidLogo_facelift)
+ksta.de#?#article:-abp-has(> a.paidLogo_facelift)
 ksta.de##section[data-tracking-module-id="38042740"]
 !
 ! stuttgarter-zeitung.de,frankenpost.de,np-coburg.de,kurier.de
-stuttgarter-zeitung.de,frankenpost.de,np-coburg.de,kurier.de#?#.item:has(> .content > .data[data-paidcontent="true"])
-stuttgarter-zeitung.de#?##top-of-page > .site-wrapper.ressort .brick[data-b-title*="Topthema"]:has( .item > .content > .data[data-paidcontent="true"])
+stuttgarter-zeitung.de,frankenpost.de,np-coburg.de,kurier.de#?#.item:-abp-has(> .content > .data[data-paidcontent="true"])
+stuttgarter-zeitung.de#?##top-of-page > .site-wrapper.ressort .brick[data-b-title*="Topthema"]:-abp-has( .item > .content > .data[data-paidcontent="true"])
 stuttgarter-zeitung.de##div[data-lt="pos_stzplus"]
-frankenpost.de#?##top-of-page > .ressort .brick[data-b-title*="LokalAufmacher"]:has( .item > .content > .data[data-paidcontent="true"])
-frankenpost.de#?#.brick:has(> .compact-brick:only-child > .item[style="display: none !important;"]:only-child)
+frankenpost.de#?##top-of-page > .ressort .brick[data-b-title*="LokalAufmacher"]:-abp-has( .item > .content > .data[data-paidcontent="true"])
+frankenpost.de#?#.brick:-abp-has(> .compact-brick:only-child > .item[style="display: none !important;"]:only-child)
 !
 ! sueddeutsche.de
 sueddeutsche.de##.sz-panorama-banderole
 sueddeutsche.de##.interactiveeditorial
 sueddeutsche.de##div[data-hydration-component-name="FinalAssetEditorialTeaserToken"]
-sueddeutsche.de#?#a:has( div[class*="__overline"] > div[class*="__overline-label"] > svg > title:contains(SZ Plus))
-sueddeutsche.de#?#a:has(> .teaser-item__description > .teaser-item__overline > svg > title:contains(SZ Plus))
-sueddeutsche.de#?#a:has(> div > h3 > div > span > svg > title:contains(SZ Plus))
-sueddeutsche.de#?#div[data-teaserlist-element]:has(> a[style="display: none !important;"])
-sueddeutsche.de#?#div[itemprop="articleBody"] > div[class]:has(> figure > a[style="display: none !important;"])
-sueddeutsche.de#?#section > ol > li:has(> div > article:only-child > a[style="display: none !important;"])
-sueddeutsche.de#?#ul > li:has(> a[href="https://plus.sueddeutsche.de"])
+sueddeutsche.de#?#a:-abp-has( div[class*="__overline"] > div[class*="__overline-label"] > svg > title:contains(SZ Plus))
+sueddeutsche.de#?#a:-abp-has(> .teaser-item__description > .teaser-item__overline > svg > title:contains(SZ Plus))
+sueddeutsche.de#?#a:-abp-has(> div > h3 > div > span > svg > title:contains(SZ Plus))
+sueddeutsche.de#?#div[data-teaserlist-element]:-abp-has(> a[style="display: none !important;"])
+sueddeutsche.de#?#div[itemprop="articleBody"] > div[class]:-abp-has(> figure > a[style="display: none !important;"])
+sueddeutsche.de#?#section > ol > li:-abp-has(> div > article:only-child > a[style="display: none !important;"])
+sueddeutsche.de#?#ul > li:-abp-has(> a[href="https://plus.sueddeutsche.de"])
 !
 ! berliner-zeitung.de
 berliner-zeitung.de##.category--b-plus
 berliner-zeitung.de##.page > .category--b-plus + div + div[class] + .a-separator
-berliner-zeitung.de#?#a:has(> div[class] > .m-article-teaser__content > .m-article-teaser__top .has-b-plus-indicator)
-berliner-zeitung.de#?#a:has(> div[class] > .m-article-teaser__content > h2 > .has-b-plus-indicator)
-berliner-zeitung.de#?#.row > div[class^="col"]:has(> a > div[class] > .m-article-teaser__content > .m-article-teaser__top .has-b-plus-indicator)
-berliner-zeitung.de#?#div[class^="m-article-teaser"] .row .row > div[class^="col"]:has( a > div[class] > .m-article-teaser__content > .m-article-teaser__top .has-b-plus-indicator)
+berliner-zeitung.de#?#a:-abp-has(> div[class] > .m-article-teaser__content > .m-article-teaser__top .has-b-plus-indicator)
+berliner-zeitung.de#?#a:-abp-has(> div[class] > .m-article-teaser__content > h2 > .has-b-plus-indicator)
+berliner-zeitung.de#?#.row > div[class^="col"]:-abp-has(> a > div[class] > .m-article-teaser__content > .m-article-teaser__top .has-b-plus-indicator)
+berliner-zeitung.de#?#div[class^="m-article-teaser"] .row .row > div[class^="col"]:-abp-has( a > div[class] > .m-article-teaser__content > .m-article-teaser__top .has-b-plus-indicator)
 !
 ! badische-zeitung.de
-badische-zeitung.de#?#ul:has(> .media-box__article__box__item > a > p > .badge__0006)
-badische-zeitung.de#?#ul:has(> .media-box__article__box__item > a > p > .badge__0003)
-badische-zeitung.de#?#.article-list__item:has(> a > .article-list__item--mpre > span > .bzpluss--holder)
+badische-zeitung.de#?#ul:-abp-has(> .media-box__article__box__item > a > p > .badge__0006)
+badische-zeitung.de#?#ul:-abp-has(> .media-box__article__box__item > a > p > .badge__0003)
+badische-zeitung.de#?#.article-list__item:-abp-has(> a > .article-list__item--mpre > span > .bzpluss--holder)
 !
 ! spiegel.de
-spiegel.de#?#article:has( h2 a span span[data-contains-flags="Mmplus-paid"])
-spiegel.de#?#article:has( h2 a span span[data-contains-flags="Spplus-conditional"])
-spiegel.de#?#div[data-sara-click-el="article_teaser"]:has(> article h2 span > span[data-contains-flags="Spplus-paid"])
-spiegel.de#?#div.relative:has(> .relative > article > a > span > h2 > span > span[data-contains-flags="Spplus-paid"])
-spiegel.de#?#div.relative:has(> div[data-app-headerbar-offset] > div[class]:contains(SPIEGEL+))
-spiegel.de#?#.swiper-slide:has(> article > h2 > a > span > span[data-contains-flags="Spplus-paid"])
-spiegel.de#?#li:has(> div[class] > div[class] > a > span > span > span[data-contains-flags="Spplus-paid"])
-spiegel.de#?#div[data-area="body"] > aside:has(> div[data-area="related_articles"] > div > span + .border-separator-b + div[class]:last-child > div[class] > a > .relative > span > span[data-contains-flags="Spplus-paid"])
-spiegel.de#?#li.list-disc:has(> .items-center > a > span[data-contains-flags="Spplus-paid"])
-spiegel.de#?#.w-full:has(> div[data-block-el="title"] > div[data-area="title-margincolumn"]:contains(SPIEGEL+))
-spiegel.de#?#li:has(> a > span > span[data-contains-flags="Spplus-conditional"])
+spiegel.de#?#article:-abp-has( h2 a span span[data-contains-flags="Mmplus-paid"])
+spiegel.de#?#article:-abp-has( h2 a span span[data-contains-flags="Spplus-conditional"])
+spiegel.de#?#div[data-sara-click-el="article_teaser"]:-abp-has(> article h2 span > span[data-contains-flags="Spplus-paid"])
+spiegel.de#?#div.relative:-abp-has(> .relative > article > a > span > h2 > span > span[data-contains-flags="Spplus-paid"])
+spiegel.de#?#div.relative:-abp-has(> div[data-app-headerbar-offset] > div[class]:contains(SPIEGEL+))
+spiegel.de#?#.swiper-slide:-abp-has(> article > h2 > a > span > span[data-contains-flags="Spplus-paid"])
+spiegel.de#?#li:-abp-has(> div[class] > div[class] > a > span > span > span[data-contains-flags="Spplus-paid"])
+spiegel.de#?#div[data-area="body"] > aside:-abp-has(> div[data-area="related_articles"] > div > span + .border-separator-b + div[class]:last-child > div[class] > a > .relative > span > span[data-contains-flags="Spplus-paid"])
+spiegel.de#?#li.list-disc:-abp-has(> .items-center > a > span[data-contains-flags="Spplus-paid"])
+spiegel.de#?#.w-full:-abp-has(> div[data-block-el="title"] > div[data-area="title-margincolumn"]:contains(SPIEGEL+))
+spiegel.de#?#li:-abp-has(> a > span > span[data-contains-flags="Spplus-conditional"])
 spiegel.de##li[style="display: none !important;"] + .h-px.border-separator-b
 spiegel.de##div[data-has-paid-access-hidden]
 !
 ! stern.de
 stern.de##a[data-commerce*="str_plus"]
 stern.de##div[id*="%20"][id*="lus"]
-stern.de#?#article:has(> div > a[data-commerce*="str_plus"])
-stern.de#?#article:has(> .teaser__text-content > .teaser__brand-identifier--str_crime)
-stern.de#?#article:has(> .teaser__text-content > .teaser__brand-identifier--geo_plus)
-stern.de#?#article:has(> .teaser__text-content > .teaser__brand-identifier--capital_plus_extern)
-stern.de#?#.article__body > .group:has(> .group__items > .group__embedded-teasers > article[style="display: none !important;"]:only-child)
-stern.de#?#.article__body > .article__embedded-teasers:has(> article[style="display: none !important;"]:only-child)
+stern.de#?#article:-abp-has(> div > a[data-commerce*="str_plus"])
+stern.de#?#article:-abp-has(> .teaser__text-content > .teaser__brand-identifier--str_crime)
+stern.de#?#article:-abp-has(> .teaser__text-content > .teaser__brand-identifier--geo_plus)
+stern.de#?#article:-abp-has(> .teaser__text-content > .teaser__brand-identifier--capital_plus_extern)
+stern.de#?#.article__body > .group:-abp-has(> .group__items > .group__embedded-teasers > article[style="display: none !important;"]:only-child)
+stern.de#?#.article__body > .article__embedded-teasers:-abp-has(> article[style="display: none !important;"]:only-child)
 !
 ! epochtimes.de
 epochtimes.de###premium
-epochtimes.de#?#.main > #etd-hb-2:has(> .card > div[class] > .card-body > a > .premium)
-epochtimes.de#?#.card:has( a .premium)
+epochtimes.de#?#.main > #etd-hb-2:-abp-has(> .card > div[class] > .card-body > a > .premium)
+epochtimes.de#?#.card:-abp-has( a .premium)
 !
 ! oe24.at
-oe24.at#?#.tabbedBox:has(> section > section > .headline > .row > h2 > .headlineLink:contains(oe24-Plus))
+oe24.at#?#.tabbedBox:-abp-has(> section > section > .headline > .row > h2 > .headlineLink:contains(oe24-Plus))
 !
 ! jungefreiheit.de
-jungefreiheit.de#?#.elementor-widget-container .ee-grid__item:has(> article > .ee-post__body > a > .ee-post__title__heading > span > img[alt*="Premium"])
+jungefreiheit.de#?#.elementor-widget-container .ee-grid__item:-abp-has(> article > .ee-post__body > a > .ee-post__title__heading > span > img[alt*="Premium"])
 !
 ! gamestar.de
 gamestar.de##.plus-banner-top
 gamestar.de##a[href^="/plus/"]
 gamestar.de###section112
 gamestar.de##.plus
-gamestar.de#?#div:has(> .article-list.media > div[class] > span > a > .icon-plus)
-gamestar.de#?#div:has(> .article-list.media > div[class] > span > a > .icon-plus) + hr
-gamestar.de#?#.box-reload .media:has(> div[class] > a > span > .topleft.grn)
-gamestar.de#?#.box-reload .media:has(> div[class] > a > span > .topleft.grn) + hr
+gamestar.de#?#div:-abp-has(> .article-list.media > div[class] > span > a > .icon-plus)
+gamestar.de#?#div:-abp-has(> .article-list.media > div[class] > span > a > .icon-plus) + hr
+gamestar.de#?#.box-reload .media:-abp-has(> div[class] > a > span > .topleft.grn)
+gamestar.de#?#.box-reload .media:-abp-has(> div[class] > a > span > .topleft.grn) + hr
 !
 ! augsburger-allgemeine.de
 ! Slider looks a bit broken though
 augsburger-allgemeine.de##.p-add-plus-m
-augsburger-allgemeine.de#?#a:has( [class] > .aa-plus)
-augsburger-allgemeine.de#?#li:not(.b-carousel__slide):has(> a [class] > .aa-plus)
+augsburger-allgemeine.de#?#a:-abp-has( [class] > .aa-plus)
+augsburger-allgemeine.de#?#li:not(.b-carousel__slide):-abp-has(> a [class] > .aa-plus)
 !
 ! businessinsider.de
-businessinsider.de#?#.article-grid__item:has(> div[class] .teaser-post__header > .teaser-post__labels--has-premium)
-businessinsider.de#?#.article-section:has(> .article-section__content > .article-section__header > .article-section__title > a[href*="/abo/bi-plus"])
-businessinsider.de#?#.wp-block-inline-teaser:has(> div[class][href] .list-labels__item > .premium-label)
+businessinsider.de#?#.article-grid__item:-abp-has(> div[class] .teaser-post__header > .teaser-post__labels--has-premium)
+businessinsider.de#?#.article-section:-abp-has(> .article-section__content > .article-section__header > .article-section__title > a[href*="/abo/bi-plus"])
+businessinsider.de#?#.wp-block-inline-teaser:-abp-has(> div[class][href] .list-labels__item > .premium-label)
 businessinsider.de###menu-item-2352373
 !
 ! idowa.de
 idowa.de##.idowa-plus
 idowa.de##a[data-tags="idowa+"]
-idowa.de#?#div[class*="brick"] > .item:has(> .content > a[data-tags="idowa+"])
+idowa.de#?#div[class*="brick"] > .item:-abp-has(> .content > a[data-tags="idowa+"])
 ||idowa-generator.*.amazonaws.com/idowa-de-idowa-plus-overview.js
 !
 ! cicero.de
 ! Not all articles are marked as Plus, so cannot be hidden
-cicero.de#?#article:has(> div[class] > div[class] a[class*="paywall-"])
-cicero.de#?#.field--item:has(> div[class] > .portlet__body article > a[class*="paywall-"])
-cicero.de#?#.top_article_list > li:has(> div[class] > div[class] > article > a[class*="paywall-"])
-cicero.de#?#.field--item:has(> div[class] > #box-advertorial-stilwerk)
+cicero.de#?#article:-abp-has(> div[class] > div[class] a[class*="paywall-"])
+cicero.de#?#.field--item:-abp-has(> div[class] > .portlet__body article > a[class*="paywall-"])
+cicero.de#?#.top_article_list > li:-abp-has(> div[class] > div[class] > article > a[class*="paywall-"])
+cicero.de#?#.field--item:-abp-has(> div[class] > #box-advertorial-stilwerk)
 cicero.de##.cicero-plus
 !
 ! geo.de
 geo.de##.bannerGeoPlus
 geo.de##.group--adtag-with-fallbackcontent
 geo.de##div[id*="GEO%20PLUS"]
-geo.de#?#article:has(> div[class] > div[class*="--geo_plus"])
-geo.de#?#.article__body > .article__embedded-teasers:has(> article[style="display: none !important;"])
+geo.de#?#article:-abp-has(> div[class] > div[class*="--geo_plus"])
+geo.de#?#.article__body > .article__embedded-teasers:-abp-has(> article[style="display: none !important;"])
 !
 ! rnd.de,neuepresse.de
-rnd.de,neuepresse.de#?#div > a:has(> article div[class] > h2 > span[data-testid="paid-icon-container"] > div:not(.hMpZZy))
+rnd.de,neuepresse.de#?#div > a:-abp-has(> article div[class] > h2 > span[data-testid="paid-icon-container"] > div:not(.hMpZZy))
 !
 ! welt.de
 welt.de##li[data-qa="Stage.InhouseAd"]
 welt.de##li[data-external-content="Kameleoon.InhouseAd"]
 welt.de##.c-highlight-stage
 welt.de##section[data-external-stage-name="weltplus"]
-welt.de#?#li:has( > article > ul > li > .o-teaser__body > .c-dreifaltigkeit > .o-teaser__title > .o-teaser__premium-icon)
-welt.de#?#ul > li:has(> article > div[class] h4.o-teaser__title > .o-teaser__premium-icon)
-welt.de#?#.c-article-text > .c-inline-element:has(> div[data-qa="InlineTeaser"] > .c-inline-teaser__body .o-teaser__premium-icon)
-welt.de#?#.c-inline-teaser-list__body > .c-inline-teaser-list__item:has(> div[data-qa="InlineTeaser"] > .c-inline-teaser__body .o-teaser__premium-icon)
-welt.de#?#.c-stage--has-theme:has(> ul > li[data-click-tracking-label="hero"]:only-child > article > ul > li > div[class] > div[class] > h4 > .o-teaser__premium-icon)
+welt.de#?#li:-abp-has( > article > ul > li > .o-teaser__body > .c-dreifaltigkeit > .o-teaser__title > .o-teaser__premium-icon)
+welt.de#?#ul > li:-abp-has(> article > div[class] h4.o-teaser__title > .o-teaser__premium-icon)
+welt.de#?#.c-article-text > .c-inline-element:-abp-has(> div[data-qa="InlineTeaser"] > .c-inline-teaser__body .o-teaser__premium-icon)
+welt.de#?#.c-inline-teaser-list__body > .c-inline-teaser-list__item:-abp-has(> div[data-qa="InlineTeaser"] > .c-inline-teaser__body .o-teaser__premium-icon)
+welt.de#?#.c-stage--has-theme:-abp-has(> ul > li[data-click-tracking-label="hero"]:only-child > article > ul > li > div[class] > div[class] > h4 > .o-teaser__premium-icon)
 !
 ! weltwoche.ch
 weltwoche.ch##.headerIconAbo
-weltwoche.ch#?#.postTeaser:has(> div[class] div[onclick*="/autor/"] + div[class] > a > span.postTeaserGridAbo)
+weltwoche.ch#?#.postTeaser:-abp-has(> div[class] div[onclick*="/autor/"] + div[class] > a > span.postTeaserGridAbo)
 !
 ! pnp.de
-pnp.de#?#article:has(> .media > .media-body > a.is-plus)
-pnp.de#?#.article-teaser-col:has(> article > .media > .media-body > a.is-plus)
-pnp.de#?#.container:has(> .section-title > a[href^="/plus/"])
-pnp.de#?#.article-teaser-col:has(> a > .media-body > .is-plus)
-pnp.de#?#div[id^="modul_"]:has(> .container > .section-title > .logo-pnp-plus-image)
+pnp.de#?#article:-abp-has(> .media > .media-body > a.is-plus)
+pnp.de#?#.article-teaser-col:-abp-has(> article > .media > .media-body > a.is-plus)
+pnp.de#?#.container:-abp-has(> .section-title > a[href^="/plus/"])
+pnp.de#?#.article-teaser-col:-abp-has(> a > .media-body > .is-plus)
+pnp.de#?#div[id^="modul_"]:-abp-has(> .container > .section-title > .logo-pnp-plus-image)
 !
 ! 11freunde.de
 11freunde.de##.teaser--paid-only
@@ -207,9 +207,9 @@ capital.de##a[data-commerce*="cap_plus"]
 capital.de##.bannerCapPlusLink
 capital.de###Ratgeber-Dossiers
 capital.de##div[id*="Capital+"]
-capital.de#?#.group--adtag-with-fallbackcontent:has(> .group__items > article > .teaser__text-content > .teaser__brand-identifier--capital_plus)
-capital.de#?#article:has(> div[class^="teaser"] > .teaser__brand-identifier--capital_plus)
-capital.de#?#.article__embedded-teasers:has(> article > .teaser__text-content > .teaser__brand-identifier--capital_plus)
+capital.de#?#.group--adtag-with-fallbackcontent:-abp-has(> .group__items > article > .teaser__text-content > .teaser__brand-identifier--capital_plus)
+capital.de#?#article:-abp-has(> div[class^="teaser"] > .teaser__brand-identifier--capital_plus)
+capital.de#?#.article__embedded-teasers:-abp-has(> article > .teaser__text-content > .teaser__brand-identifier--capital_plus)
 !
 ! zeit.de
 zeit.de##article[data-zplus="zplus"]
@@ -218,8 +218,8 @@ zeit.de##.kpi-table__col--zplus
 zeit.de##.cp-area--headed-zplus
 zeit.de##.cp-region--dossier
 zeit.de##aside[aria-label="Exklusiv für Abonnenten"]
-zeit.de#?#.kpi-table__table--col3 > tbody > tr > td:has(> article[data-zplus="zplus"])
-zeit.de#?#.cp-region--duo > .cp-area:has(> article[data-zplus="zplus"])
+zeit.de#?#.kpi-table__table--col3 > tbody > tr > td:-abp-has(> article[data-zplus="zplus"])
+zeit.de#?#.cp-region--duo > .cp-area:-abp-has(> article[data-zplus="zplus"])
 !
 ! wiwo.de
 wiwo.de##.c-nav__wiwoplus
@@ -231,98 +231,98 @@ wiwo.de##a[href^="/my/"]
 !
 wiwo.de##div[tt-value="Plusbühne"]
 wiwo.de##div[data-command*="Banner"]
-wiwo.de#?#.o-layout__item:has(> .isPremiumTeaser)
-wiwo.de#?#.c-gallery__item:has(> label[data-command*="WiWo+"])
-wiwo.de#?#.slick-slide:has(> div > div[tt-premium="true"])
+wiwo.de#?#.o-layout__item:-abp-has(> .isPremiumTeaser)
+wiwo.de#?#.c-gallery__item:-abp-has(> label[data-command*="WiWo+"])
+wiwo.de#?#.slick-slide:-abp-has(> div > div[tt-premium="true"])
 !
 ! lr-online.de
 lr-online.de##.edge-ad
 lr-online.de##a[aria-label*="Plus-Abo"]
 lr-online.de###retresco-recommendations
-lr-online.de#?#.row > div[class^="col-"]:has(> div[data-cid] > div[class] > span > .lro-plus-badge)
-lr-online.de#?#.article-text .text:has(> div[class] .title > span > .freemium-icon.lro)
+lr-online.de#?#.row > div[class^="col-"]:-abp-has(> div[data-cid] > div[class] > span > .lro-plus-badge)
+lr-online.de#?#.article-text .text:-abp-has(> div[class] .title > span > .freemium-icon.lro)
 !
 ! mittelbayerische.de
 mittelbayerische.de##.plus-wrapper
 ! will leave left-over, else it would break a display on regional category
-mittelbayerische.de#?#.teaser:has(> a .icon-mzplus)
+mittelbayerische.de#?#.teaser:-abp-has(> a .icon-mzplus)
 !
-mittelbayerische.de#?#section:has(> h3 > a[href*="-plus/"])
+mittelbayerische.de#?#section:-abp-has(> h3 > a[href*="-plus/"])
 mittelbayerische.de#$#.collection > li { height: calc(100%) !important; }
 !
 ! weser-kurier.de
 weser-kurier.de##a[href*="abo.weser-kurier.de"]
-weser-kurier.de#?#.webpagefragment-section:has(> div > h2 > a[href*="/wk-plus/"])
-weser-kurier.de#?#article:has(> a > .teaser-text > .premium-content__indicator)
-weser-kurier.de#?#.webpagefragment-section:has(> .webpagefragment-wrapper:only-child > .article__related-article > p + article[style*="display: none !important;"]:last-child)
+weser-kurier.de#?#.webpagefragment-section:-abp-has(> div > h2 > a[href*="/wk-plus/"])
+weser-kurier.de#?#article:-abp-has(> a > .teaser-text > .premium-content__indicator)
+weser-kurier.de#?#.webpagefragment-section:-abp-has(> .webpagefragment-wrapper:only-child > .article__related-article > p + article[style*="display: none !important;"]:last-child)
 !
 ! rp-online.de
 rp-online.de##.park-header-v2__pluslink
-rp-online.de#?#.park-teaser-collection__list-item:has(> article > a > .park-teaser__body > header span > .park-icon-paid)
-rp-online.de#?#.park-teaser-image-list:has(> header > .park-section-headline > span.park-section-headline__text:contains(RP+))
-rp-online.de#?#li[class*="__item"]:has(> article > a span > .park-icon-paid)
-rp-online.de#?#.park-container > header:has(> .park-opener__text-wrapper > .park-opener__text > a span > .park-icon-paid)
+rp-online.de#?#.park-teaser-collection__list-item:-abp-has(> article > a > .park-teaser__body > header span > .park-icon-paid)
+rp-online.de#?#.park-teaser-image-list:-abp-has(> header > .park-section-headline > span.park-section-headline__text:contains(RP+))
+rp-online.de#?#li[class*="__item"]:-abp-has(> article > a span > .park-icon-paid)
+rp-online.de#?#.park-container > header:-abp-has(> .park-opener__text-wrapper > .park-opener__text > a span > .park-icon-paid)
 !
 ! rosenheim24.de
 rosenheim24.de###id-Container-508709
 rosenheim24.de###id-Container-485934
 rosenheim24.de###id-Container-504322
 rosenheim24.de##a[href="//www.rosenheim24.de/plus/"]
-rosenheim24.de#?#div[class^="id-LB-e--"]:has(> div > .id-Teaser-el-content > .id-Teaser-el-content-headline--paywall)
+rosenheim24.de#?#div[class^="id-LB-e--"]:-abp-has(> div > .id-Teaser-el-content > .id-Teaser-el-content-headline--paywall)
 !
 ! gamesworld.de
-gamesworld.de#?#.item:has(> a > p.title:contains([PLUS]))
+gamesworld.de#?#.item:-abp-has(> a > p.title:contains([PLUS]))
 !
 ! pcgameshardware.de
 pcgameshardware.de##.at_premium
 pcgameshardware.de##.pcghPlus
-pcgameshardware.de#?#.articleTicker:has(> .articleTickerHead > [class]:contains(Plus-Artikel))
-pcgameshardware.de#?#.articleticker_item:has(> div[class] > div a:contains([PLUS]))
+pcgameshardware.de#?#.articleTicker:-abp-has(> .articleTickerHead > [class]:contains(Plus-Artikel))
+pcgameshardware.de#?#.articleticker_item:-abp-has(> div[class] > div a:contains([PLUS]))
 !
 ! tagblatt.ch
 tagblatt.ch##li[data-nzz-mainmenuitem="/aboplus"]
-tagblatt.ch#?#article:has(> div[data-nzz-cp] > .teaser__content > a > .teaser__wrapper > .teaser__title > .catchline--premium)
-tagblatt.ch#?#div[pagetype="Page"]:has(> article[style="display: none !important;"]:only-child)
-tagblatt.ch#?#section:has(> .pageelement__inner > .container > .container__content a[href="/aboplus"][data-nzz-tid="headline-title"])
-tagblatt.ch#?#.widget__row:has(> div[style="display: none !important;"]:first-child + div[style="display: none !important;"] + div[style="display: none !important;"]:last-child)
-tagblatt.ch#?#div[pagetype="Page"]:has(> article[style="display: none !important;"]:first-child + .first:last-child)
-tagblatt.ch#?#section:has(> .pageelement__inner:only-child > .widget__row:only-child > div[style="display: none !important;"]:first-child + div[style="display: none !important;"]:last-child)
-tagblatt.ch#?#.einklinker-trending-row > div[data-nzz-tid="teaser"]:has(> div[data-nzz-teaser-content] > .metainfo .metainfo__wrapper > .icon--premium)
-tagblatt.ch#?#article:has(> div[data-nzz-tid="teaser"] > div[data-nzz-teaser-content] >  a > .teaser__wrapper > .teaser__title > .catchline--premium)
+tagblatt.ch#?#article:-abp-has(> div[data-nzz-cp] > .teaser__content > a > .teaser__wrapper > .teaser__title > .catchline--premium)
+tagblatt.ch#?#div[pagetype="Page"]:-abp-has(> article[style="display: none !important;"]:only-child)
+tagblatt.ch#?#section:-abp-has(> .pageelement__inner > .container > .container__content a[href="/aboplus"][data-nzz-tid="headline-title"])
+tagblatt.ch#?#.widget__row:-abp-has(> div[style="display: none !important;"]:first-child + div[style="display: none !important;"] + div[style="display: none !important;"]:last-child)
+tagblatt.ch#?#div[pagetype="Page"]:-abp-has(> article[style="display: none !important;"]:first-child + .first:last-child)
+tagblatt.ch#?#section:-abp-has(> .pageelement__inner:only-child > .widget__row:only-child > div[style="display: none !important;"]:first-child + div[style="display: none !important;"]:last-child)
+tagblatt.ch#?#.einklinker-trending-row > div[data-nzz-tid="teaser"]:-abp-has(> div[data-nzz-teaser-content] > .metainfo .metainfo__wrapper > .icon--premium)
+tagblatt.ch#?#article:-abp-has(> div[data-nzz-tid="teaser"] > div[data-nzz-teaser-content] >  a > .teaser__wrapper > .teaser__title > .catchline--premium)
 !
 ! braunschweiger-zeitung.de
-braunschweiger-zeitung.de#?#article:has(> a .ispayedcontent)
+braunschweiger-zeitung.de#?#article:-abp-has(> a .ispayedcontent)
 !
 ! mainpost.de
-mainpost.de#?#article:has(> a > .teaser-content > .headline > .behindWall)
-mainpost.de#?#article:has(> .teaser-content > a > .headline > .behindWall)
+mainpost.de#?#article:-abp-has(> a > .teaser-content > .headline > .behindWall)
+mainpost.de#?#article:-abp-has(> .teaser-content > a > .headline > .behindWall)
 !
 ! business-standard.com
-business-standard.com#?#.article:has(> h2 > img[alt*="Premium"])
-business-standard.com#?#.row-panel:has(> .row-inner > .paid_article_key)
-business-standard.com#?#li:has(> h2 > img[alt*="Premium"])
-business-standard.com#?#li:has(> h2 > span > .paid_article_key)
-business-standard.com#?#.op-inner > div[class^="col-m-"]:has(> h4 > img[alt*="Premium"])
-business-standard.com#?#.op-inner:has(> h4 > img[alt*="Premium"])
-business-standard.com#?#.owl-item > .item > div:has(> h3 > .paid_article_key)
-business-standard.com#?#.article-left:has(> div > h2 > .paid_article_key)
-business-standard.com#?#.top-section:has(> h2 > .paid_article_key)
-business-standard.com#?#.aticle-txt:has(> li > span > .paid_article_key)
+business-standard.com#?#.article:-abp-has(> h2 > img[alt*="Premium"])
+business-standard.com#?#.row-panel:-abp-has(> .row-inner > .paid_article_key)
+business-standard.com#?#li:-abp-has(> h2 > img[alt*="Premium"])
+business-standard.com#?#li:-abp-has(> h2 > span > .paid_article_key)
+business-standard.com#?#.op-inner > div[class^="col-m-"]:-abp-has(> h4 > img[alt*="Premium"])
+business-standard.com#?#.op-inner:-abp-has(> h4 > img[alt*="Premium"])
+business-standard.com#?#.owl-item > .item > div:-abp-has(> h3 > .paid_article_key)
+business-standard.com#?#.article-left:-abp-has(> div > h2 > .paid_article_key)
+business-standard.com#?#.top-section:-abp-has(> h2 > .paid_article_key)
+business-standard.com#?#.aticle-txt:-abp-has(> li > span > .paid_article_key)
 !
 ! infranken.de
-infranken.de#?#.listing-item:has( > article > .teaser-inner > .post-content > .post-badge-plus)
+infranken.de#?#.listing-item:-abp-has( > article > .teaser-inner > .post-content > .post-badge-plus)
 !
 ! golem.de
 golem.de##a[href="https://www.golem.de/specials/golemplus/"]
 golem.de##.golemplus
-golem.de#?#li:has(> .golemplus)
-golem.de#?#.media__teaser-list > li:has(> .longread-teaser > .media-wrap > .media-slider > .media-slider__wrapper > li.golemplus:first-child + li.golemplus + li.golemplus + li.golemplus + li.golemplus + li.golemplus)
+golem.de#?#li:-abp-has(> .golemplus)
+golem.de#?#.media__teaser-list > li:-abp-has(> .longread-teaser > .media-wrap > .media-slider > .media-slider__wrapper > li.golemplus:first-child + li.golemplus + li.golemplus + li.golemplus + li.golemplus + li.golemplus)
 golem.de#$#.index div[class*="col"] { min-height: calc(100%) !important; }
 !
 ! saechsische.de
 ! Some plus-articles are free (looks to be the most recent ones and can be found in their news ticker at top). There is nothing in code to check if the one is free or paid. So there are maybe some free ones blocked which are not in their ticker
-saechsische.de#?#.article-box[data-articleid]:has(> .article-box__text > .article-box__info > .article-badge--plus)
-saechsische.de#?#.article-slider:has(> .article-slider-header > .article-slider-header__title > a[href="das-beste-aus-sz-plus"])
+saechsische.de#?#.article-box[data-articleid]:-abp-has(> .article-box__text > .article-box__info > .article-badge--plus)
+saechsische.de#?#.article-slider:-abp-has(> .article-slider-header > .article-slider-header__title > a[href="das-beste-aus-sz-plus"])
 !
 ! gamepro.de
 gamepro.de###plus-sp-toggle
@@ -330,25 +330,25 @@ gamepro.de##.plus-badge
 !
 ! manager-magazin.de
 manager-magazin.de###mmPlusBanner
-manager-magazin.de#?#article:has( h2 a > span span[data-contains-flags*="plus-paid"])
-manager-magazin.de#?#li:has(> a > span span[data-contains-flags*="plus-paid"])
-manager-magazin.de#?#div[data-area="related_articles"] li:has(> div a > span span[data-contains-flags*="plus-paid"])
+manager-magazin.de#?#article:-abp-has( h2 a > span span[data-contains-flags*="plus-paid"])
+manager-magazin.de#?#li:-abp-has(> a > span span[data-contains-flags*="plus-paid"])
+manager-magazin.de#?#div[data-area="related_articles"] li:-abp-has(> div a > span span[data-contains-flags*="plus-paid"])
 !
 ! wz.de
-wz.de#?#.park-opener--article:has(> .park-opener__text-wrapper a .park-opener__headlines > span > .park-icon-paid)
-wz.de#?#article:has(> a span > .park-icon-paid)
-wz.de#?#li:has(> a span > .park-icon-paid)
+wz.de#?#.park-opener--article:-abp-has(> .park-opener__text-wrapper a .park-opener__headlines > span > .park-icon-paid)
+wz.de#?#article:-abp-has(> a span > .park-icon-paid)
+wz.de#?#li:-abp-has(> a span > .park-icon-paid)
 !
 ! moz.de
 moz.de###retresco-recommendations
 moz.de##.edge-ad
-moz.de#?#div[data-cid]:has(> div[class] > .d-inline > .freemium-icon)
-moz.de#?#div[class^="col-"]:has(> div[data-cid][style="display: none !important;"]:only-child)
-moz.de#?#.teaser-current-news > div[class^="col-"] > .row:has(> .title > .d-inline > .freemium-icon)
-moz.de#?#.text > .row:has(> div[class^="col-"]:last-child > .title > span > .freemium-icon)
-moz.de#?#.pt-md-3:has(> div[class^="col-"][style="display: none !important;"]:first-child + div[class^="col-"][style="display: none !important;"] + div[class^="col-"][style="display: none !important;"]:last-child)
+moz.de#?#div[data-cid]:-abp-has(> div[class] > .d-inline > .freemium-icon)
+moz.de#?#div[class^="col-"]:-abp-has(> div[data-cid][style="display: none !important;"]:only-child)
+moz.de#?#.teaser-current-news > div[class^="col-"] > .row:-abp-has(> .title > .d-inline > .freemium-icon)
+moz.de#?#.text > .row:-abp-has(> div[class^="col-"]:last-child > .title > span > .freemium-icon)
+moz.de#?#.pt-md-3:-abp-has(> div[class^="col-"][style="display: none !important;"]:first-child + div[class^="col-"][style="display: none !important;"] + div[class^="col-"][style="display: none !important;"]:last-child)
 !
 ! topagrar.com
-topagrar.com#?#div[data-vr-contentbox]:has(> a > div > p > span > img[alt*="plus"])
-topagrar.com#?#a:has(> div > p > span > img[alt*="plus"])
+topagrar.com#?#div[data-vr-contentbox]:-abp-has(> a > div > p > span > img[alt*="plus"])
+topagrar.com#?#a:-abp-has(> div > p > span > img[alt*="plus"])
 !
