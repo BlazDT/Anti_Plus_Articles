@@ -10,6 +10,7 @@ heise.de#?#a-collapse-group > .flex-1:-abp-has(> div[class] > a-collapse > heade
 heise.de#?#.article-index > article:-abp-has(> a > .a-article-teaser__content-container > .a-article-meta > .a-article-meta__heiseplus-logo)
 heise.de#?#.article-content > a-collapse:-abp-has(> .a-box__target > .a-box__content > article > .a-article-teaser__link > .a-article-teaser__content-container > .a-article-meta > .a-article-meta__heiseplus-logo)
 heise.de#?#article.a-article-teaser > a:-abp-has(> .a-article-teaser__content-container > .a-article-meta > .a-article-meta__heiseplus-logo)
+heise.de#?#div[data-component="TeaserLinkList"] > ul > li:-abp-has(> a > svg)
 ! left-overs not fully fixable as there are maybe non-heise+ articles in box
 heise.de#?#article[data-upscore-object-id]:-abp-has( a > div > footer > svg > title:contains(heise_plus_positiv)) + hr.border-gray-100
 heise.de#?#li:-abp-has(> article:only-child > a > div[class] > .a-article-teaser__content-container > footer > .a-article-meta__heiseplus-logo)
