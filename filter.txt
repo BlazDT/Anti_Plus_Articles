@@ -23,6 +23,7 @@ heise.de##a-teaser[campaign^="intern.abo.plus.cam-article"]
 !
 ! bild.de
 ! Not all articles hidable on m.bild.de
+bild.de##section[data-block-id^="das-beste-von-bildplus"]
 bild.de##a[href="https://offers.bild.de/info.html"]
 bild.de##div.hentry[data-tb-region-item-premium]
 bild.de##a[href*="/bild-plus"]
