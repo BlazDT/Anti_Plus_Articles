@@ -74,6 +74,7 @@ stuttgarter-zeitung.de#?##top-of-page > .site-wrapper.ressort .brick[data-b-titl
 stuttgarter-zeitung.de##div[data-lt="pos_stzplus"]
 frankenpost.de#?##top-of-page > .ressort .brick[data-b-title*="LokalAufmacher"]:-abp-has( .item > .content > .data[data-paidcontent="true"])
 frankenpost.de#?#.brick:-abp-has(> .compact-brick:only-child > .item[style="display: none !important;"]:only-child)
+kurier.de#?#.brick:-abp-has(> .item[style="display: none !important;"]:only-child)
 !
 ! sueddeutsche.de
 sueddeutsche.de##.sz-panorama-banderole
