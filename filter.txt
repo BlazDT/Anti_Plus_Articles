@@ -193,6 +193,8 @@ welt.de#?#ul > li:-abp-has(> article > div[class] h4.o-teaser__title > .o-teaser
 welt.de#?#.c-article-text > .c-inline-element:-abp-has(> div[data-qa="InlineTeaser"] > .c-inline-teaser__body .o-teaser__premium-icon)
 welt.de#?#.c-inline-teaser-list__body > .c-inline-teaser-list__item:-abp-has(> div[data-qa="InlineTeaser"] > .c-inline-teaser__body .o-teaser__premium-icon)
 welt.de#?#.c-stage--has-theme:-abp-has(> ul > li[data-click-tracking-label="hero"]:only-child > article > ul > li > div[class] > div[class] > h4 > .o-teaser__premium-icon)
+welt.de##a[href*="animatedbanner.plus"]
+welt.de#?#.jsx-animated-banner__teaser:-abp-has(> a[href*="animatedbanner.plus"])
 !
 ! weltwoche.ch
 weltwoche.ch##.headerIconAbo
