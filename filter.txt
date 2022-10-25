@@ -38,7 +38,8 @@ bild.de#?#div[documenttype="specialNavigation"]:-abp-has(> .slider > div[class] 
 bild.de#?#.article-body > .related-topics:-abp-has(> .related-topics__container:empty)
 bild.de#?#.article-body > figure:-abp-has(> .video-figure > a[href*="bild-plus"])
 bild.de#?#.block--titled:-abp-has(> .block-title > span > a[href*="/bild-plus/"])
-bild.de#$?#article:-abp-has(> a[href*="/bild-plus"]) { remove: true; }
+! breaks pictures
+! bild.de#$?#article:-abp-has(> a[href*="/bild-plus"]) { remove: true; }
 m.bild.de##div.hentry[data-tb-region-item-premium]
 m.bild.de#?#ul > li:-abp-has(> div.hentry[data-tb-region-item-premium])
 m.bild.de#$?#article:-abp-has(> a > figure > .red-teaser-image > span > svg > path[clip-rule="evenodd"] ) { remove: true; }
