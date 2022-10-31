@@ -22,6 +22,7 @@ heise.de##section[data-chunk] > hr:first-child
 heise.de##a[href="/plus/"]
 heise.de##.stage--heiseplus
 heise.de##a-teaser[campaign^="intern.abo.plus.cam-article"]
+heise.de##a-sticky-footer
 !
 ! bild.de
 ! Not all articles hidable on m.bild.de
