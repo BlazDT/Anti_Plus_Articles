@@ -330,6 +330,7 @@ golem.de##.golemplus
 golem.de#?#li:-abp-has(> .golemplus)
 golem.de#?#.media__teaser-list > li:-abp-has(> .longread-teaser > .media-wrap > .media-slider > .media-slider__wrapper > li.golemplus:first-child + li.golemplus + li.golemplus + li.golemplus + li.golemplus + li.golemplus)
 golem.de#$#.index div[class*="col"] { min-height: calc(100%) !important; }
+golem.de#?##index-promo:has(> .golemplus:only-child)
 !
 ! saechsische.de
 ! Some plus-articles are free (looks to be the most recent ones and can be found in their news ticker at top). There is nothing in code to check if the one is free or paid. So there are maybe some free ones blocked which are not in their ticker
