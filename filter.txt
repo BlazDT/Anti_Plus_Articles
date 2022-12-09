@@ -11,7 +11,7 @@ heise.de#?#.article-index > article:-abp-has(> a > .a-article-teaser__content-co
 heise.de#?#.article-content > a-collapse:-abp-has(> .a-box__target > .a-box__content > article > .a-article-teaser__link > .a-article-teaser__content-container > .a-article-meta > .a-article-meta__heiseplus-logo)
 heise.de#?#article.a-article-teaser > a:-abp-has(> .a-article-teaser__content-container > .a-article-meta > .a-article-meta__heiseplus-logo)
 heise.de#?#div[data-component="TeaserLinkList"] > ul > li:-abp-has(> a > svg)
-heise.de#?#section[data-layout-name="FreeHorizontalLayout"]:not(:has(> article:not([style="display: none !important;"]))
+heise.de#?#section[data-layout-name="FreeHorizontalLayout"]:not(:has(> article:not([style="display: none !important;"])))
 heise.de#?#[data-component="TeasersModule"]:has(> section[style="display: none !important;"])
 heise.de#?#div[data-component="TeasersModule"]:-abp-has(> a-sticky > header > img[alt="heise+"])
 heise.de#?#a-module[data-component="TeasersModuleContainer"]:-abp-has(> a-sticky + section[style="display: none !important;"] + script + div[data-slot="true"] + footer:last-child)
