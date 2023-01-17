@@ -2,6 +2,7 @@
 ! Description: Hides links to paywall articles
 !
 ! heise.de
+heise.de#?#article[data-upscore-object-id]:-abp-has( a footer > svg > path[fill="#fff"])
 heise.de#?#article[data-upscore-object-id]:-abp-has( a > footer > svg > title:contains(heise_plus_positiv))
 heise.de#?#article[data-upscore-object-id]:-abp-has( a > div > footer > svg > title:contains(heise_plus_positiv))
 heise.de#?#.ho-modules-container > div[data-component="TeasersModule"]:-abp-has(> a-sticky > header > img[alt="heise+"])
