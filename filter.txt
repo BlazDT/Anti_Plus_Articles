@@ -3,6 +3,7 @@
 !
 ! heise.de
 heise.de#?#article:has(> div[class] a > header > h3 > span > svg)
+heise.de#?#article:has(> a h3 > span > svg)
 heise.de#?#article[data-upscore-object-id]:-abp-has( a footer > svg > path[fill="#fff"])
 heise.de#?#article[data-upscore-object-id]:-abp-has( a footer > svg > path[fill="#fff"]) + hr.border-gray-100
 heise.de#?#article[data-upscore-object-id]:-abp-has( a > footer > svg > title:contains(heise_plus_positiv))
