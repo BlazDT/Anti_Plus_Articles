@@ -58,6 +58,7 @@ bild.de#?#.related-topics__container:-abp-has(> .related-topics__teaser[style="d
 bild.de#?#.related-topics__container:-abp-has(> .related-topics__teaser[style="display: none !important;"]:first-child + .related-topics__teaser[style="display: none !important;"]:last-child)
 ! 3 children
 bild.de#?#.related-topics__container:-abp-has(> div.related-topics__teaser[style="display: none !important;"]:first-child + div.related-topics__teaser[style="display: none !important;"] + div.related-topics__teaser[style="display: none !important;"]:last-child)
+bild.de#?#.related-topics:-abp-has(> .related-topics__container[style="display: none !important;"]:last-child)
 !
 ! faz.net
 faz.net#?#article:not(.atc):not(.tsr-Top1):not(.tsr-Top1TextInPicture):not(.tsr-Lead):-abp-has(header span > .ico-Base_FazPlus)
