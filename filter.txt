@@ -64,6 +64,7 @@ bild.de#?#.related-topics:-abp-has(> .related-topics__container[style="display: 
 faz.net#?#article:not(.atc):not(.tsr-Top1):not(.tsr-Top1TextInPicture):not(.tsr-Lead):-abp-has(header span:not(.is-hidden) > .ico-Base_FazPlus)
 faz.net#?#.sld-TeaserMore_Item:-abp-has(> div[class] > article header > p > span > span > .ico-Base_FazPlus)
 faz.net#?#.o-Grid_Col:-abp-has(> article[style="display: none !important;"])
+faz.net#$#.tsr-Base_Image { width: unset !important; }
 faz.net##div[data-tb-region="Das Beste von F+"]
 faz.net##.mm-adbox
 faz.net##a[data-is-premium="true"]
