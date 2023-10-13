@@ -240,7 +240,7 @@ capital.de#?#article:-abp-has(> div[class^="teaser"] > .teaser__brand-identifier
 capital.de#?#.article__embedded-teasers:-abp-has(> article > .teaser__text-content > .teaser__brand-identifier--capital_plus)
 !
 ! zeit.de
-zeit.de##article[data-zplus]
+zeit.de##article[data-zplus="zplus"]
 zeit.de##a[data-ct-label="zplus"]
 zeit.de##.kpi-table__col--zplus
 zeit.de##.cp-area--headed-zplus
