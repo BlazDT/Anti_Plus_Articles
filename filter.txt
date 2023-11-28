@@ -27,6 +27,7 @@ heise.de##a[href="/plus/"]
 heise.de##.stage--heiseplus
 heise.de##a-teaser[campaign^="intern.abo.plus.cam-article"]
 heise.de##a-sticky-footer
+heise.de##article[style="display: none !important;"] + hr
 !
 ! bild.de
 ! Not all articles hidable on m.bild.de
