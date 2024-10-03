@@ -30,7 +30,10 @@ heise.de##a-sticky-footer
 heise.de##article[style="display: none !important;"] + hr
 !
 ! bild.de
-! Not all articles hidable on m.bild.de
+! Not all articles hidable on bild.de
+bild.de##.related-topics__teaser:has(> a > figure > .teaser__premium-icon)
+bild.de##article:has(> a > figure > .teaser__premium-icon)
+bild.de##a[href^="https://angebot.bild.de"]
 bild.de##section[data-block-id^="das-beste-von-bildplus"]
 bild.de##a[href="https://offers.bild.de/info.html"]
 bild.de##div.hentry[data-tb-region-item-premium]
