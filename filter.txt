@@ -70,6 +70,13 @@ bild.de#?#.related-topics__container:-abp-has(> div.related-topics__teaser[style
 bild.de#?#.related-topics:-abp-has(> .related-topics__container[style="display: none !important;"]:last-child)
 !
 ! faz.net
+faz.net##.topic-bundle:has(> a[href*="faz-plus"])
+faz.net##[class*="teaser-object"]:has(> .teaser-object__body > a > h2 > .teaser-object__label > svg > path[d="M38.7061 0H5.37041C5.37041 0 0.5 0 0.5 4.87022V38.1298C0.5 38.1298 0.5 43 5.37041 43H38.6126C38.6126 43 43.483 43 43.483 38.1298V4.87022C43.5765 4.87022 43.5765 0 38.7061 0Z"])
+faz.net##.col-span-full:has(> a > h2 > .teaser-object__label > svg > path[d="M38.7061 0H5.37041C5.37041 0 0.5 0 0.5 4.87022V38.1298C0.5 38.1298 0.5 43 5.37041 43H38.6126C38.6126 43 43.483 43 43.483 38.1298V4.87022C43.5765 4.87022 43.5765 0 38.7061 0Z"])
+faz.net##.swiper-slide:has(> div > a > h2 > .teaser-object__label > svg > path[d="M38.7061 0H5.37041C5.37041 0 0.5 0 0.5 4.87022V38.1298C0.5 38.1298 0.5 43 5.37041 43H38.6126C38.6126 43 43.483 43 43.483 38.1298V4.87022C43.5765 4.87022 43.5765 0 38.7061 0Z"])
+faz.net##.picture-article:has(> .picture-article__wrapper-text > div[class] > a > h2 > .teaser-object__label > svg > path[d="M38.7061 0H5.37041C5.37041 0 0.5 0 0.5 4.87022V38.1298C0.5 38.1298 0.5 43 5.37041 43H38.6126C38.6126 43 43.483 43 43.483 38.1298V4.87022C43.5765 4.87022 43.5765 0 38.7061 0Z"])
+faz.net##.teaser-object:has(> div > a > div > svg > path[d="M38.7061 0H5.37041C5.37041 0 0.5 0 0.5 4.87022V38.1298C0.5 38.1298 0.5 43 5.37041 43H38.6126C38.6126 43 43.483 43 43.483 38.1298V4.87022C43.5765 4.87022 43.5765 0 38.7061 0Z"])
+faz.net##a:has(> div > svg > path[d="M38.7061 0H5.37041C5.37041 0 0.5 0 0.5 4.87022V38.1298C0.5 38.1298 0.5 43 5.37041 43H38.6126C38.6126 43 43.483 43 43.483 38.1298V4.87022C43.5765 4.87022 43.5765 0 38.7061 0Z"])
 faz.net#?#article:not(.atc):not(.tsr-Top1):not(.tsr-Top1TextInPicture):not(.tsr-Lead):-abp-has(header span:not(.is-hidden) > .ico-Base_FazPlus)
 faz.net#?#.sld-TeaserMore_Item:-abp-has(> div[class] > article header > p > span > span > .ico-Base_FazPlus)
 faz.net#?#.o-Grid_Col:-abp-has(> article[style="display: none !important;"])
